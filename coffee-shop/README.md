@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -31,4 +31,55 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details. -->
+
+# FINAL PROJECT (coffee shop)
+
+* Design site that looks like with the Next.js
+* [link] (https://preview.themeforest.net/item/the-retation-coffee-bar-and-bistr-template/full_screen_preview/12845679?_ga=2.246076419.607954646.1615946393-621853536.1615946207)
+
+
+## Timeline: 10 days
+
+* Two more days to refactor code and testing
+
+
+## target
+
+* Build web app React latest version with Next.js
+* Apply TypeScript to type checking
+* Apply Bootstrap 5
+
+
+## Technologies:
+
+* HTML5
+* CSS3/bootstrap
+* Typescript
+* React
+* Next.js
+* JSON server
+* Github
+
+
+## Estimstion Detail:
+
+* [Link] (https://docs.google.com/document/d/1bk9M5KVQLS6PkUImfXTrTX4eajn454zX19QsNy6kM-o/edit?usp=sharing)
+
+
+## Envirment
+
+* Ubuntu v18.04 (Operating system)
+)
+
+
+## Editor
+
+* Visual Studio Code v1.39.1 (Text editor
+
+
+## Getting start
+
+* [Link] (https://github.com/HaNguyen110/final-project.git)
+* Clone this repository
+* Checkout to coffee-shop-web-app branch
