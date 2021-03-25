@@ -6,6 +6,7 @@ import SEO from "../components/SEO";
 
 import { navigationData } from "../constants";
 import Carousel from "../components/Carousel";
+import FooterInfo from "../layouts/footer";
 
 export default function Home() {
   return (
@@ -21,6 +22,8 @@ export default function Home() {
       />
 
       <Carousel />
+
+      <FooterInfo />
 
       {/* <Navigation menu={navigationData} classNames="" /> */}
     </div>
