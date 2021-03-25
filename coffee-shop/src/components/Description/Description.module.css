@@ -1,8 +1,28 @@
-.lineTitle {
-  width: 60%;
+.title {
   font-size: 40px;
   text-transform: uppercase;
   color: #000;
   font-weight: bold;
   line-height: 1.1;
+  margin-bottom: 25px;
+}
+
+.title::before,
+.title::after {
+  content: "";
+  border-top: 2px solid;
+  margin: 0 20px 0 0;
+  flex: 1 0 20px;
+  height: 2px;
+  left: 15%;
+  right: 50%;
+  z-index: 1;
+  background-color: #000;
+}
+
+.text {
+  line-height: 26px;
+  color: #5c5c68;
+  font-size: 20px;
+  text-align: center;
 }

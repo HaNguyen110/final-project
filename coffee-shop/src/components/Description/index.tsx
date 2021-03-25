@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import React from "react";
 import styles from "./Description.module.css";
 
 type Props = {
@@ -9,10 +9,11 @@ type Props = {
 const Description: React.FC<Props> = ({ title = "", text = "" }) => {
   return (
     <>
-      <div className={styles.lineTitle}>{title}</div>
+      <div className={styles.title}>{title}</div>
+      <div className={styles.line}></div>
       <div className={styles.text}>{text}</div>
     </>
   );
 };
 
-export default memo(Description);
+export default Description;

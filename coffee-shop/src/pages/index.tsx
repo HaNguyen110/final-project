@@ -5,6 +5,7 @@ import Description from "../components/Description";
 import SEO from "../components/SEO";
 
 import { navigationData } from "../constants";
+import Carousel from "../components/Carousel";
 
 export default function Home() {
   return (
@@ -18,6 +19,8 @@ export default function Home() {
         title="advertising based"
         text="Coffee culture is a great coffee taste and it rests on the basis of responsible & respectful"
       />
+
+      <Carousel />
 
       {/* <Navigation menu={navigationData} classNames="" /> */}
     </div>

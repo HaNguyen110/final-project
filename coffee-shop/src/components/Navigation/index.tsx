@@ -17,7 +17,7 @@ const Navigation: React.FC<Props> = ({ menu = [], classNames = "" }) => {
     <>
       <div className={`${classNames} `}>
         <nav className="navbar navbar-expand-lg ">
-          <div className={styles.nav}>
+          <div className={styles.navbarMenu}>
             <div className={styles.btn}>
               <button
                 className="navbar-toggler navbar-light"
@@ -30,7 +30,7 @@ const Navigation: React.FC<Props> = ({ menu = [], classNames = "" }) => {
               >
                 <span className="navbar-toggler-icon"></span>
               </button>
-              <h3 className={styles.navbarBrand}>menu</h3>
+              {/* <h3 className={styles.navbarBrand}>menu</h3> */}
             </div>
           </div>
           <div className="collapse navbar-collapse" id="navbarNav">
