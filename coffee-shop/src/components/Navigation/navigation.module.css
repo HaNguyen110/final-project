@@ -1,3 +1,26 @@
-.nav {
-  color: black;
+.linkItem {
+  margin: 40px;
+  padding-left: 0;
+  font-family: "PT Sans", sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+
+.navbarMenu {
+}
+
+.navbarBrand {
+  font-weight: bold;
+  font-family: "PT Sans", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.btn {
 }
