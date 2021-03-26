@@ -5,10 +5,11 @@
   font-weight: bold;
   line-height: 1.1;
   margin-bottom: 25px;
+  border-bottom: solid 1px;
 }
 
-.title::before,
-.title::after {
+.line::before,
+.line::after {
   content: "";
   border-top: 2px solid;
   margin: 0 20px 0 0;
@@ -17,7 +18,7 @@
   left: 15%;
   right: 50%;
   z-index: 1;
-  background-color: #000;
+  background-color: #ccc;
 }
 
 .text {
