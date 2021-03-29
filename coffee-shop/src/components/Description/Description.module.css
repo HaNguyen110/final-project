@@ -1,11 +1,10 @@
 .title {
   font-size: 40px;
   text-transform: uppercase;
-  color: #000;
   font-weight: bold;
   line-height: 1.1;
   margin-bottom: 25px;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .line::before,
@@ -23,11 +22,9 @@
 
 .text {
   line-height: 26px;
-  color: #5c5c68;
   font-size: 15px;
-  /* text-align: center; */
+  text-align: center;
 }
 .comment {
   margin-top: 15px;
-  color: #5c5c68;
 }

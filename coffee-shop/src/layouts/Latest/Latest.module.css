@@ -8,3 +8,11 @@
 .latestContent {
   margin: 20px 0;
 }
+
+.img {
+  padding: 20px 0;
+}
+
+.line {
+  border-bottom: solid 1px;
+}

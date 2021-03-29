@@ -5,8 +5,9 @@
 
 .des {
   position: absolute;
-  bottom: 160px;
+  top: 0;
   right: 0;
   left: 0;
-  /* //margin-bottom: 80px; */
+  z-index: 1;
+  padding: 90px 0 50px;
 }

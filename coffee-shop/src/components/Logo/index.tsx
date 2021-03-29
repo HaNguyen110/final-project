@@ -1,20 +1,20 @@
-import React, { memo } from "react";
+import React from "react";
 import Image from "next/image";
 import styles from "./Logo.module.css";
 
 type Props = {
   url: string;
   alt: string;
+  width: number;
+  height: number;
 };
 
-const Logo: React.FC<Props> = ({ url = "", alt = "" }) => {
+const Logo: React.FC<Props> = ({ url = "", alt = "", width, height }) => {
   return (
-    <>
-      <div className={styles.imgLogo}>
-        <Image src="/logo.png" alt="logo" width={201} height={86} />;
-      </div>
-    </>
+    <div className={styles.imgLogo}>
+      <Image src={url} alt={alt} width={width} height={height} />;
+    </div>
   );
 };
 
-export default memo(Logo);
+export default Logo;

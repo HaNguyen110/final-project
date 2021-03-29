@@ -8,7 +8,7 @@ type Props = {};
 const Bulletproof: React.FC<Props> = ({}) => {
   return (
     <div className={styles.bulletproof}>
-      <div className="container">
+      <div className="container-fluid">
         <div className="row">
           <div className="col-md-6">
             <div className={styles.img}>
@@ -16,8 +16,8 @@ const Bulletproof: React.FC<Props> = ({}) => {
                 className=""
                 src="/img-10.png"
                 alt=""
-                width="420"
-                height="280"
+                width={420}
+                height={280}
                 objectFit="cover"
               />
             </div>

@@ -8,7 +8,7 @@ export default function Recipe() {
     <div className={styles.infoRecipe}>
       <div className="container">
         <div className="row">
-          <div className="col-7">
+          <div className="col-md-7">
             <div className="row">
               <div className="col-md-6">
                 <div className={styles.infoPost}>
@@ -25,21 +25,21 @@ export default function Recipe() {
                   className={styles.imgRecipe}
                   src="/img-13.png"
                   alt="recipe"
-                  height="285"
-                  width="326"
+                  height={285}
+                  width={326}
                   objectFit="cover"
                 />
               </div>
             </div>
           </div>
-          <div className="col-5">
+          <div className="col-md-5">
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-lg-6">
                 <h5 className={styles.comment}>
                   gather more knowledge from coffee
                 </h5>
               </div>
-              <div className="col-md-6">
+              <div className="col-lg-6">
                 <h5 className={styles.comment}>
                   work with green and roasted coffee provides
                 </h5>

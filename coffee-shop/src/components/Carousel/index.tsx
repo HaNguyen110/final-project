@@ -1,8 +1,8 @@
 import React from "react";
-import CarouselItem, { IItem } from "./CarouselItem";
+import CarouselItem, { Item } from "./CarouselItem";
 
 type Props = {
-  data?: IItem[];
+  data?: Item[];
 };
 
 const Carousel: React.FC<Props> = ({ data = [] }) => {
@@ -22,7 +22,7 @@ const Carousel: React.FC<Props> = ({ data = [] }) => {
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
       <div className="carousel-inner" role="listbox">
-        {data && data.map((item: IItem) => <CarouselItem item={item} />)}
+        {data && data.map((item: Item) => <CarouselItem item={item} />)}
       </div>
       <a
         className="carousel-control-prev"

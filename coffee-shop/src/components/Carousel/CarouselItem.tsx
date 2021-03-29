@@ -1,20 +1,31 @@
 import React from "react";
 import Image from "next/image";
 import { type } from "node:os";
+import Description from "../Description";
+import styles from "./Carousel.module.css";
 
-export interface IItem {
+export interface Item {
   src: string;
   alt: string;
   isActive: boolean;
+  title: string;
+  text: string;
 }
 
 type Props = {
-  item: IItem;
+  item: Item;
 };
 
 const CarouselItem: React.FC<Props> = ({ item }: Props) => {
   return (
     <div className={`carousel-item ${item.isActive ? "active" : ""}`}>
+      <div className={styles.carouselContent}>
+        <Description
+          title={item.title}
+          text={item.text}
+          classNames={{ title: "text-white", text: "text-white" }}
+        />
+      </div>
       <Image
         src={item.src}
         className="d-block w-100"

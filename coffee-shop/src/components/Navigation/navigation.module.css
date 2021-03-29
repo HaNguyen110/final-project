@@ -9,9 +9,6 @@
   line-height: 20px;
 }
 
-.navbarMenu {
-}
-
 .navbarBrand {
   font-weight: bold;
   font-family: "PT Sans", sans-serif;
@@ -20,6 +17,7 @@
   font-size: 18px;
   line-height: 20px;
   text-align: center;
+  justify-content: center;
 }
 
 .btn {

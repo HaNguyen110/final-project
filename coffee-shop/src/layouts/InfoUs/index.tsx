@@ -6,14 +6,6 @@ import Description from "../../components/Description";
 export default function InfoUs() {
   return (
     <div className={styles.info}>
-      <Image
-        className=""
-        src="/bg-1.jpg"
-        alt="bg"
-        height="529"
-        width="1370"
-        objectFit="cover"
-      />
       <div className="container">
         <div className="row">
           <div className="col-sm-6">
@@ -34,6 +26,14 @@ export default function InfoUs() {
           </div>
         </div>
       </div>
+      <Image
+        className=""
+        src="/bg-1.jpg"
+        alt="bg"
+        height="529"
+        width="1370"
+        objectFit="cover"
+      />
     </div>
   );
 }

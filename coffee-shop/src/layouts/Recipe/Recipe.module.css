@@ -1,5 +1,4 @@
 .infoRecipe {
-  width: 1370px;
   background-color: #efe6da;
   padding: 50px 0;
 }
@@ -14,4 +13,22 @@
   text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
+}
+
+@media (max-width: 1200px) {
+  .comment {
+    margin-top: 40%;
+  }
+}
+
+@media (max-width: 767px) {
+  .comment {
+    margin-top: 10%;
+  }
+}
+
+@media (max-width: 690px) {
+  .infoRecipe {
+    max-width: 700px;
+  }
 }
