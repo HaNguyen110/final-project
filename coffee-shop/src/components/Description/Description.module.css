@@ -5,7 +5,7 @@
   font-weight: bold;
   line-height: 1.1;
   margin-bottom: 25px;
-  border-bottom: solid 1px;
+  /* text-align: center; */
 }
 
 .line::before,
@@ -24,6 +24,10 @@
 .text {
   line-height: 26px;
   color: #5c5c68;
-  font-size: 20px;
-  text-align: center;
+  font-size: 15px;
+  /* text-align: center; */
+}
+.comment {
+  margin-top: 15px;
+  color: #5c5c68;
 }

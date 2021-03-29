@@ -1,0 +1,17 @@
+.infoRecipe {
+  width: 1370px;
+  background-color: #efe6da;
+  padding: 50px 0;
+}
+
+.infoPost {
+  margin: 20px 0;
+  padding: 0;
+}
+
+.comment {
+  margin-top: 60%;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}

@@ -4,14 +4,19 @@ import Navigation from "../components/Navigation";
 import Description from "../components/Description";
 import SEO from "../components/SEO";
 
-import { navigationData } from "../constants";
+import { carouselData, navigationData } from "../constants";
 import Carousel from "../components/Carousel";
-import FooterInfo from "../layouts/footer";
+import FooterInfo from "../layouts/Footer";
+import InfoUs from "../layouts/InfoUs";
+import Service from "../layouts/Service";
+import Recipe from "../layouts/Recipe";
+import Latest from "../layouts/Latest";
+import Bulletproof from "../layouts/Bulletproof";
 
 export default function Home() {
   return (
     <div className={styles.container}>
-      <SEO title="Home page" description="This is Home page" />
+      {/* <SEO title="Home page" description="This is Home page" />
       <Logo url="" alt="" />
 
       <Navigation menu={navigationData} />
@@ -19,9 +24,19 @@ export default function Home() {
       <Description
         title="advertising based"
         text="Coffee culture is a great coffee taste and it rests on the basis of responsible & respectful"
-      />
+      />*/}
 
-      <Carousel />
+      <Carousel data={carouselData} />
+
+      <InfoUs />
+
+      <Service />
+
+      <Latest />
+
+      <Recipe />
+
+      <Bulletproof />
 
       <FooterInfo />
 

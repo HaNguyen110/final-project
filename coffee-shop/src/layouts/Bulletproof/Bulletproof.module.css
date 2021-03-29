@@ -1,0 +1,21 @@
+.bulletproof {
+  padding: 75px 0 50px;
+}
+
+.img {
+  text-align: right;
+}
+
+.bulletproofContent {
+  padding-top: 25px;
+  line-height: 26px;
+  color: #5c5c68;
+  font-size: 15px;
+}
+
+.bulletproofComment {
+  text-align: center;
+  margin-top: 20px;
+  color: #000;
+  font-size: 12px;
+}

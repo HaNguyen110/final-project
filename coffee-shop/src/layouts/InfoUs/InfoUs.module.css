@@ -1,0 +1,12 @@
+.info {
+  position: relative;
+  text-align: center;
+}
+
+.des {
+  position: absolute;
+  bottom: 160px;
+  right: 0;
+  left: 0;
+  /* //margin-bottom: 80px; */
+}

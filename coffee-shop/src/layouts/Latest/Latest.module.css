@@ -1,0 +1,10 @@
+.latest {
+  padding: 90px 0;
+}
+.latestPost {
+  border-bottom: solid 1px #eee;
+}
+
+.latestContent {
+  margin: 20px 0;
+}

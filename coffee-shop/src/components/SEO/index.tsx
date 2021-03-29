@@ -1,5 +1,5 @@
-import React from 'react';
-import Head from 'next/head';
+import React from "react";
+import Head from "next/head";
 
 type Props = {
   description?: string;
@@ -8,9 +8,9 @@ type Props = {
 };
 
 const SEO: React.FC<Props> = ({
-  description = '',
-  title = '',
-  siteTitle = '',
+  description = "",
+  title = "",
+  siteTitle = "",
 }) => {
   return (
     <Head>

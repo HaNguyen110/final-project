@@ -16,3 +16,21 @@ export const navigationData = [
     label: "News & Events",
   },
 ];
+
+export const carouselData = [
+  {
+    src: "/banner-1.jpg",
+    alt: "banner-1",
+    isActive: true,
+  },
+  {
+    src: "/banner-2.jpg",
+    alt: "banner-2",
+    isActive: false,
+  },
+  {
+    src: "/banner-1.jpg",
+    alt: "banner-1",
+    isActive: false,
+  },
+];

@@ -1,75 +1,79 @@
-import Head from "next/head";
-import Link from "next/link";
+import React from "react";
+import Description from "../../components/Description";
+import styles from "./Footer.module.css";
 
-export default function FooterInfo() {
+export default function Footer() {
   return (
     <>
-      {/* <Head>
-        <title>Footer page</title>
-      </Head> */}
+      <footer className={styles.footer}>
+        <div className="footer-info">
+          <div className="container">
+            <div className="row">
+              <div className="col-sm-4">
+                <aside className="widget">
+                  <h3 className={styles.title}>About Us</h3>
+                  <div className="widget-content">
+                    <p>
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life
+                      accusamus terry richardson ad squid.
+                    </p>
+                    <p>
+                      <span>hello@mtheme.org</span>
+                    </p>
+                    <p>
+                      <span>+(84)123456789</span>
+                    </p>
+                    <p>
+                      <span>
+                        198 West 21th Street, Suite 721 New York NY 10010
+                      </span>
+                    </p>
+                  </div>
+                </aside>
+              </div>
+              <div className="col-sm-4">
+                <aside className="widget">
+                  <h3 className={styles.title}>For Business</h3>
 
-      <footer className="pt-4 my-md-5 pt-md-5 ">
-        <div className="row">
-          <div className="col-4 col-md">
-            <aside className="widget">
-              <h3>About Us</h3>
-              <div>
-                <p>
-                  Anim pariatur cliche reprehenderit, enim eiusmod high life
-                  accusamus terry richardson ad squid.
-                </p>
-                <p>
-                  <span>Hello@theme.org</span>
-                </p>
-                <p>
-                  <span>+(84)123456789</span>
-                </p>
+                  <ul className={styles.widgetContent}>
+                    <li>
+                      <a className={styles.widgetLink} href="#">
+                        Office Coffee
+                      </a>
+                    </li>
+                    <li>
+                      <a className={styles.widgetLink} href="#">
+                        Food Service
+                      </a>
+                    </li>
+                    <li>
+                      <a className={styles.widgetLink} href="#">
+                        Affiliate Program
+                      </a>
+                    </li>
+                  </ul>
+                </aside>
               </div>
-            </aside>
-          </div>
-          <div className="col-4 col-md">
-            <aside className="widget">
-              <h3>for business</h3>
-              <div>
-                <ul className="list-unstyled">
-                  <li>
-                    <Link href="/">
-                      <a>office coffee</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/">
-                      <a>food service</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/">
-                      <a>affiliate program</a>
-                    </Link>
-                  </li>
-                </ul>
+              <div className="col-sm-4">
+                <aside className="widget">
+                  <h3 className={styles.title}>Follow Us</h3>
+                  <div className="widget-content">
+                    <p>Follow Origin on the following social network sites.</p>
+                  </div>
+                </aside>
               </div>
-            </aside>
+            </div>
           </div>
-          <div className="col-4 col-md">
-            <aside className="widget">
-              <h3>fllow us</h3>
-              <div>
-                <p>Follow Origin on the following social network sites.</p>
-              </div>
-            </aside>
-          </div>
-        </div>
-
-        <div className="coppyright">
-          <p>
-            Copyright &copy; 2015
-            {/* <Link href="http://themeforest.net/user/mtheme_market">
-              <a>mTheme</a>. All Rights Reserved.
-            </Link> */}
-          </p>
         </div>
       </footer>
+      <div className={styles.copyright}>
+        <div className="container">
+          <p className={styles.copyrightText}>
+            Copyright © 2015{" "}
+            {/*<a href="http://themeforest.net/user/mtheme_market">mTheme</a>. All Rights Reserved. */}
+          </p>
+        </div>
+      </div>
     </>
   );
 }

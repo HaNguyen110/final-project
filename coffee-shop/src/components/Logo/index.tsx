@@ -11,7 +11,7 @@ const Logo: React.FC<Props> = ({ url = "", alt = "" }) => {
   return (
     <>
       <div className={styles.imgLogo}>
-        <Image src="/images/logo.png" alt="logo" width={201} height={86} />;
+        <Image src="/logo.png" alt="logo" width={201} height={86} />;
       </div>
     </>
   );
