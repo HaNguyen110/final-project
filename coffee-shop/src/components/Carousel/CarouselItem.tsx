@@ -25,7 +25,10 @@ const CarouselItem: React.FC<Props> = ({ item }: Props) => {
         <Description
           title={item.title}
           text={item.text}
-          classNames={{ title: "text-white", text: "text-white" }}
+          classNames={{
+            title: "text-white text-center",
+            text: "text-white text-center",
+          }}
         />
       </div>
       <Image
