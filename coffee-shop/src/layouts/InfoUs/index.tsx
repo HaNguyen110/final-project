@@ -1,6 +1,9 @@
 import React from "react";
+
 import Image from "next/image";
+
 import styles from "./InfoUs.module.css";
+
 import Description from "../../components/Description";
 
 export default function InfoUs() {
@@ -30,8 +33,8 @@ export default function InfoUs() {
         className=""
         src="/bg-1.jpg"
         alt="bg"
-        height="529"
-        width="1370"
+        height={529}
+        width={1370}
         objectFit="cover"
       />
     </div>

@@ -9,5 +9,14 @@
   right: 0;
   left: 0;
   z-index: 1;
-  padding: 90px 0 50px;
+  padding: 90px 50px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 300px;
+  }
+  .des {
+    padding: 20px 0 0 0;
+  }
 }

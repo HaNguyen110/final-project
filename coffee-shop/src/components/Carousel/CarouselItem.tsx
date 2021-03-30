@@ -1,7 +1,9 @@
 import React from "react";
+
 import Image from "next/image";
-import { type } from "node:os";
+
 import Description from "../Description";
+
 import styles from "./Carousel.module.css";
 
 export interface Item {

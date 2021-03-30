@@ -1,17 +1,20 @@
 import React from "react";
+
+import styles from "./Latest.module.css";
+
+import Image from "next/image";
+
 import Description from "../../components/Description";
 import Post from "../../components/Post";
-import styles from "./Latest.module.css";
-import Image from "next/image";
 
 type Props = {};
 
 const Latest: React.FC<Props> = ({}) => {
   return (
     <div className={styles.latest}>
-      <div className="container">
+      <div className="container-md">
         <div className="row">
-          <div className="col-md-7">
+          <div className={`${styles.infoLatest} col`}>
             <Description title="latest update" />
             <div className={`${styles.line} row`}>
               <div className="col-md-4">
@@ -37,7 +40,7 @@ const Latest: React.FC<Props> = ({}) => {
                   />
                 </div>
               </div>
-            </div>
+            </div>{" "}
             <div className={`${styles.line} row`}>
               <div className="col-md-8">
                 <div className={styles.latestContent}>
@@ -55,22 +58,24 @@ const Latest: React.FC<Props> = ({}) => {
                     className=""
                     src="/latest-2.png"
                     alt=""
-                    width="220"
-                    height="155"
+                    width={220}
+                    height={155}
                     objectFit="cover"
                   />
                 </div>
               </div>
             </div>
           </div>
-          <div className="col-md-5">
-            <Image
-              className=""
-              src="/coffee.jpg"
-              alt=""
-              width={427}
-              height={533}
-            />
+          <div className="col-lg-5 text-center">
+            <div className={styles.img}>
+              <Image
+                className={styles.coffeeImg}
+                src="/coffee.jpg"
+                alt=""
+                width={427}
+                height={540}
+              />
+            </div>
           </div>
         </div>
       </div>

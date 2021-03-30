@@ -1,9 +1,10 @@
 .title {
-  font-size: 40px;
+  font-size: 32px;
   text-transform: uppercase;
   font-weight: bold;
   line-height: 1.1;
   margin-bottom: 25px;
+  padding: 0 30px;
   text-align: center;
 }
 
@@ -22,7 +23,6 @@
 
 .text {
   line-height: 26px;
-  font-size: 15px;
   text-align: center;
 }
 .comment {

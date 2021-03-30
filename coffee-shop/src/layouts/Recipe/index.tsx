@@ -1,6 +1,9 @@
 import React from "react";
+
 import styles from "./Recipe.module.css";
+
 import Post from "../../components/Post";
+
 import Image from "next/image";
 
 export default function Recipe() {

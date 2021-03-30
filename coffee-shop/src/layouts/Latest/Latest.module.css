@@ -1,6 +1,11 @@
 .latest {
   padding: 90px 0;
 }
+
+.infoLatest {
+  padding: 0 50px;
+}
+
 .latestPost {
   border-bottom: solid 1px #eee;
 }
@@ -14,5 +19,17 @@
 }
 
 .line {
-  border-bottom: solid 1px;
+  border-bottom: solid 1px #eee;
+  padding: 0 50px;
+}
+
+@media (max-width: 767px) {
+  .img {
+    text-align: center;
+  }
+  .line {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+  }
 }

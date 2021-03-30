@@ -1,6 +1,9 @@
 import React from "react";
+
 import Image from "next/image";
+
 import styles from "./Bulletproof.module.css";
+
 import Post from "../../components/Post";
 
 type Props = {};
@@ -15,7 +18,7 @@ const Bulletproof: React.FC<Props> = ({}) => {
               <Image
                 className=""
                 src="/img-10.png"
-                alt=""
+                alt="bulletproofContent"
                 width={420}
                 height={280}
                 objectFit="cover"

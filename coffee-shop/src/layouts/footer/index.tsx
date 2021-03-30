@@ -1,7 +1,7 @@
 import React from "react";
 
 import Link from "next/link";
-import Description from "../../components/Description";
+
 import styles from "./Footer.module.css";
 
 export default function Footer() {
@@ -38,11 +38,8 @@ export default function Footer() {
                   <h3 className={styles.title}>For Business</h3>
 
                   <ul className={styles.widgetContent}>
-                    <li>
+                    <li className={styles.widgetLink}>
                       <Link href="#"> Office Coffee</Link>
-                      <a className={styles.widgetLink} href="#">
-                        Office Coffee
-                      </a>
                     </li>
                     <li>
                       <a className={styles.widgetLink} href="#">
