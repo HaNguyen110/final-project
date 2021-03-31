@@ -44,11 +44,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## Technologies:
 
 - HTML5
-- CSS3/bootstrap
+- CSS3/bootstrap 4
 - Typescript
 - React
 - Next.js
-- JSON server
+- JSON Server
 - Github
 
 ## Installation
