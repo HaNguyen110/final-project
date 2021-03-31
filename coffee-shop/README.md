@@ -35,51 +35,37 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 # FINAL PROJECT (coffee shop)
 
-* Design site that looks like with the Next.js
-* [link] (https://preview.themeforest.net/item/the-retation-coffee-bar-and-bistr-template/full_screen_preview/12845679?_ga=2.246076419.607954646.1615946393-621853536.1615946207)
+- [link] (https://preview.themeforest.net/item/the-retation-coffee-bar-and-bistr-template/full_screen_preview/12845679?_ga=2.246076419.607954646.1615946393-621853536.1615946207)
 
+## Target
 
-## Timeline: 10 days
-
-* Two more days to refactor code and testing
-
-
-## target
-
-* Build web app React latest version with Next.js
-* Apply TypeScript to type checking
-* Apply Bootstrap 5
-
+- Build web app React latest version with Next.js
+- Apply TypeScript to type checking
+- Apply Bootstrap 5
 
 ## Technologies:
 
-* HTML5
-* CSS3/bootstrap
-* Typescript
-* React
-* Next.js
-* JSON server
-* Github
+- HTML5
+- CSS3/bootstrap
+- Typescript
+- React
+- Next.js
+- JSON server
+- Github
 
+## Installation
 
-## Estimstion Detail:
+1. Clone project from Github
 
-* [Link] (https://docs.google.com/document/d/1bk9M5KVQLS6PkUImfXTrTX4eajn454zX19QsNy6kM-o/edit?usp=sharing)
+- $ git clone https://github.com/HaNguyen110/final-project.git
+- $ git checkout cofee-shop-web-app
 
+2. System Requirement
 
-## Envirment
+- [Node.js] 10.13 or later (https://nodejs.org/en/)
+- Run the server:
 
-* Ubuntu v18.04 (Operating system)
-)
+* cd coffee-shop
+* npm run dev
 
-
-## Editor
-
-* Visual Studio Code v1.39.1 (Text editor
-
-
-## Getting start
-
-* [Link] (https://github.com/HaNguyen110/final-project.git)
-* Clone this repository
-* Checkout to coffee-shop-web-app branch
+- Let’s check to see if it’s working. Open http://localhost:3000 from browser.
