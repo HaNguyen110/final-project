@@ -35,8 +35,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 # FINAL PROJECT (coffee shop)
 
-- [link] (https://preview.themeforest.net/item/the-retation-coffee-bar-and-bistr-template/full_screen_preview/12845679?_ga=2.246076419.607954646.1615946393-621853536.1615946207)
-
 ## Target
 
 - Build web app React latest version with Next.js
@@ -57,15 +55,19 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 1. Clone project from Github
 
-- $ git clone https://github.com/HaNguyen110/final-project.git
-- $ git checkout cofee-shop-web-app
+```
+$ git clone https://github.com/HaNguyen110/final-project.git
+$ git checkout cofee-shop-web-app
+```
 
 2. System Requirement
 
-- [Node.js] 10.13 or later (https://nodejs.org/en/)
-- Run the server:
+   _[Node.js] 10.13 or later (https://nodejs.org/en/)_
+   _Run the server:_
 
-* cd coffee-shop
-* npm run dev
+```
+cd coffee-shop
+npm run dev
+```
 
-- Let’s check to see if it’s working. Open http://localhost:3000 from browser.
+3. Let’s check to see if it’s working. Open http://localhost:3000 from browser.
