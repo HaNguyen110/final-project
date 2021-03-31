@@ -8,7 +8,7 @@ import Post from "../../components/Post";
 
 type Props = {};
 
-const Bulletproof: React.FC<Props> = ({}) => {
+const Bulletproof = ({}) => {
   return (
     <div className={styles.bulletproof}>
       <div className="container-fluid">

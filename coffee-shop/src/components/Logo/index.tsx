@@ -9,7 +9,7 @@ type Props = {
   height: number;
 };
 
-const Logo: React.FC<Props> = ({ url = "", alt = "", width, height }) => {
+const Logo = ({ url = "", alt = "", width, height }) => {
   return (
     <div className={styles.imgLogo}>
       <Image src={url} alt={alt} width={width} height={height} />;

@@ -18,7 +18,7 @@ type Props = {
   item: Item;
 };
 
-const CarouselItem: React.FC<Props> = ({ item }: Props) => {
+const CarouselItem = ({ item }: Props) => {
   return (
     <div className={`carousel-item ${item.isActive ? "active" : ""}`}>
       <div className={styles.carouselContent}>

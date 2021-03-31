@@ -1,0 +1,23 @@
+.entryDate {
+  font-size: 40px;
+  font-weight: bold;
+  color: #5c5c68;
+  margin-bottom: 15px;
+}
+
+.entryMeta {
+  position: relative;
+  padding-top: 35px;
+  color: #828282;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.entryMeta:after {
+  content: "";
+  position: absolute;
+  top: 30px;
+  left: 0;
+  height: 2px;
+  width: 82px;
+}

@@ -5,7 +5,7 @@ type Props = {
   data?: Item[];
 };
 
-const Carousel: React.FC<Props> = ({ data = [] }) => {
+const Carousel = ({ data = [] }) => {
   return (
     <div
       id="carouselExampleIndicators"

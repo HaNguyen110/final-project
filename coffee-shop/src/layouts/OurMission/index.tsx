@@ -6,7 +6,7 @@ import Description from "../../components/Description";
 
 type Props = {};
 
-const OutMission: React.FC<Props> = ({}) => {
+const OutMission = ({}) => {
   return (
     <div className={styles.OurMission}>
       <div className="container">

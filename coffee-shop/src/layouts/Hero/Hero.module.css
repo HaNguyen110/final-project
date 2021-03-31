@@ -17,6 +17,25 @@
   display: flex;
   justify-content: center;
 }
+.title {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+@media (max-width: 996px) {
+  .title {
+    opacity: 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .header {
+    top: 0;
+  }
+}
 
 @media (max-width: 400px) {
   .header {

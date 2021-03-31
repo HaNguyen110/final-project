@@ -13,7 +13,7 @@ type Props = {
   classNames?: ClassNames;
 };
 
-const Description: React.FC<Props> = ({
+const Description = ({
   title = "",
   text = "",
   comment = "",

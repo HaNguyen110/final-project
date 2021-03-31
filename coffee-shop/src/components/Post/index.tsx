@@ -6,7 +6,7 @@ type Props = {
   text?: string;
 };
 
-const Post: React.FC<Props> = ({ title = "", text = "" }) => {
+const Post = ({ title = "", text = "" }) => {
   return (
     <>
       <div className={styles.title}>{title}</div>

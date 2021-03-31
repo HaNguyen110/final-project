@@ -12,7 +12,7 @@ type Props = {
   classNames?: string;
 };
 
-const Navigation: React.FC<Props> = ({ menu = [], classNames = "" }) => {
+const Navigation = ({ menu = [], classNames = "" }) => {
   return (
     <div className={`${classNames} `}>
       <nav className="navbar navbar-expand-lg ">
@@ -36,7 +36,7 @@ const Navigation: React.FC<Props> = ({ menu = [], classNames = "" }) => {
             {menu.map((item, index) => {
               return (
                 <li className="nav-item active" key={`${index}-${item.label}`}>
-                  <Link href="/">
+                  <Link href={item.label}>
                     <a className={styles.linkItem} href="#">
                       {item.label}
                     </a>

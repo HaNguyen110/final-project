@@ -9,7 +9,7 @@ import Post from "../../components/Post";
 
 type Props = {};
 
-const Latest: React.FC<Props> = ({}) => {
+const Latest = ({}) => {
   return (
     <div className={styles.latest}>
       <div className="container-md">

@@ -1,5 +1,7 @@
 import React from "react";
 
+import Image from "next/image";
+
 import styles from "./Hero.module.css";
 
 import { carouselData, navigationData } from "../../constants";
@@ -7,10 +9,15 @@ import { carouselData, navigationData } from "../../constants";
 import Carousel from "../../components/Carousel";
 import Logo from "../../components/Logo";
 import Navigation from "../../components/Navigation";
+import Description from "../../components/Description";
 
-type Props = {};
+type Props = {
+  isActiveCarousel?: boolean;
+  src?: string;
+  title?: string;
+};
 
-const Hero: React.FC<Props> = ({}) => {
+const Hero = ({ isActiveCarousel, src = "", title = "" }: Props) => {
   return (
     <div className={styles.hero}>
       <div className={styles.header}>
@@ -27,7 +34,25 @@ const Hero: React.FC<Props> = ({}) => {
         </div>
       </div>
       <div>
-        <Carousel data={carouselData} />
+        {isActiveCarousel ? (
+          <Carousel data={carouselData} />
+        ) : (
+          <div>
+            <div>
+              <Image
+                className=""
+                src={src}
+                alt="background "
+                width={1370}
+                height={400}
+                objectFit="cover"
+              />
+            </div>
+            <div className={styles.title}>
+              <Description title={title} classNames={{ title: "text-white" }} />
+            </div>
+          </div>
+        )}
       </div>
     </div>
   );

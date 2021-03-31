@@ -7,11 +7,7 @@ type Props = {
   siteTitle?: string;
 };
 
-const SEO: React.FC<Props> = ({
-  description = "",
-  title = "",
-  siteTitle = "",
-}) => {
+const SEO = ({ description = "", title = "", siteTitle = "" }) => {
   return (
     <Head>
       <title>{`${title} | ${siteTitle}`}</title>
