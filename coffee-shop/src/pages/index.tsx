@@ -12,6 +12,7 @@ import Latest from "../layouts/Latest";
 import Bulletproof from "../layouts/Bulletproof";
 import Footer from "../layouts/Footer";
 import Entry from "../components/Entry";
+import EntryDetail from "../components/EntryDetail";
 
 export default function Home() {
   return (
@@ -33,6 +34,8 @@ export default function Home() {
       <Bulletproof />
 
       <Footer />
+
+      <EntryDetail />
 
       {/* <Navigation menu={navigationData} classNames="" /> */}
     </div>

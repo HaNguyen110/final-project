@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="footer-info">
           <div className="container">
             <div className="row">
-              <div className="col-sm-4">
+              <div className="col-md-4">
                 <aside className="widget">
                   <h3 className={styles.title}>About Us</h3>
                   <div className="widget-content">
@@ -33,28 +33,22 @@ export default function Footer() {
                   </div>
                 </aside>
               </div>
-              <div className="col-sm-4">
-                <aside className="widget">
-                  <h3 className={styles.title}>For Business</h3>
+              <div className={`${styles.widget} col-md-4`}>
+                <h3 className={styles.title}>For Business</h3>
 
-                  <ul className={styles.widgetContent}>
-                    <li className={styles.widgetLink}>
-                      <Link href="#"> Office Coffee</Link>
-                    </li>
-                    <li>
-                      <a className={styles.widgetLink} href="#">
-                        Food Service
-                      </a>
-                    </li>
-                    <li>
-                      <a className={styles.widgetLink} href="#">
-                        Affiliate Program
-                      </a>
-                    </li>
-                  </ul>
-                </aside>
+                <ul className={styles.widgetContent}>
+                  <li className={styles.widgetLink}>
+                    <Link href="#"> Office Coffee</Link>
+                  </li>
+                  <li className={styles.widgetLink}>
+                    <Link href="#">Food Service</Link>
+                  </li>
+                  <li className={styles.widgetLink}>
+                    <Link href="#">Affiliate Program</Link>
+                  </li>
+                </ul>
               </div>
-              <div className="col-sm-4">
+              <div className="col-md-4">
                 <aside className="widget">
                   <h3 className={styles.title}>Follow Us</h3>
                   <div className="widget-content">
@@ -64,16 +58,14 @@ export default function Footer() {
               </div>
             </div>
           </div>
+          <div className={styles.copyright}>
+            <p className={styles.copyrightText}>
+              Copyright © 2015{" "}
+              {/*<a href="http://themeforest.net/user/mtheme_market">mTheme</a>. All Rights Reserved. */}
+            </p>
+          </div>
         </div>
       </footer>
-      <div className={styles.copyright}>
-        <div className="container">
-          <p className={styles.copyrightText}>
-            Copyright © 2015{" "}
-            {/*<a href="http://themeforest.net/user/mtheme_market">mTheme</a>. All Rights Reserved. */}
-          </p>
-        </div>
-      </div>
     </>
   );
 }

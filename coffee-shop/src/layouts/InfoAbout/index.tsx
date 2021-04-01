@@ -29,10 +29,10 @@ const Carousel = ({
     <div className={styles.about}>
       <div className="container">
         <div className={`${styles.aboutContent} row`}>
-          <div className="col-sm-7">
+          <div className="col-md-7">
             <Description title={title} text={text} comment={comment} />
           </div>
-          <div className="col-sm-5">
+          <div className="col-md-5">
             <Image
               className=""
               src={src}

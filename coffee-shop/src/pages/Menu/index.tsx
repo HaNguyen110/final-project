@@ -1,18 +1,22 @@
 import React from "react";
 
-import Category from "../../layouts/Category";
+import MenuCategory from "../../layouts/MenuCategory";
 
 import { menuData } from "../../constants";
 
 import Hero from "../../layouts/Hero";
+import MenuItem from "../../components/MenuItem";
+import Footer from "../../layouts/Footer";
 
 const Menu = () => {
   return (
     <>
       <Hero src="/bgMenu.jpg" title="menu" />
       {menuData.map((item, index) => {
-        return <Category menuData={item} key={index} />;
+        return <MenuCategory menuData={item} key={index} />;
       })}
+
+      <Footer />
     </>
   );
 };

@@ -11,7 +11,7 @@ type Props = {};
 const Bulletproof = ({}) => {
   return (
     <div className={styles.bulletproof}>
-      <div className="container-fluid">
+      <div className="container">
         <div className="row">
           <div className="col-md-6">
             <div className={styles.img}>

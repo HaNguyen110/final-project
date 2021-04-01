@@ -48,13 +48,13 @@ const About = () => {
         which sterilizes food products without adding any chemicals or hazardous materials."
         comment="Worldwide, we have over 50 passionate employees and counting. In 2012, we 
         opened our first ever Spicely Boutique, located in downtown San Francisco."
-        src="/"
+        src="/ourMethods.png"
         alt="our method"
-        width={457}
-        heigt={329}
+        width={350}
+        heigt={370}
       />
 
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

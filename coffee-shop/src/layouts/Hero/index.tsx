@@ -26,7 +26,7 @@ const Hero = ({ isActiveCarousel, src = "", title = "" }: Props) => {
             url="/logo.png"
             alt=" Coffee Shop Logo"
             width={201}
-            height={80}
+            height={60}
           />
         </div>
         <div className={styles.nav}>

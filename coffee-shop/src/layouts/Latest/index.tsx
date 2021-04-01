@@ -12,10 +12,13 @@ type Props = {};
 const Latest = ({}) => {
   return (
     <div className={styles.latest}>
-      <div className="container-md">
+      <div className="container">
         <div className="row">
           <div className={`${styles.infoLatest} col`}>
-            <Description title="latest update" />
+            <Description
+              title="latest update"
+              classNames={{ title: "text-center" }}
+            />
             <div className={`${styles.line} row`}>
               <div className="col-md-4">
                 <div className={styles.img}>
