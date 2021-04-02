@@ -13,7 +13,7 @@ type Props = {
   description?: string;
   note?: string;
 };
-//name
+
 const MenuCategory = ({
   menuData,
   src = "",
@@ -57,11 +57,11 @@ const MenuCategory = ({
                 </div>
               );
             })}
-            {/* <MenuItem
+            <MenuItem
               name={items.name}
               price={items.price}
               description={items.description}
-            /> */}
+            />
           </div>
         </div>
       </div>

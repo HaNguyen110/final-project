@@ -21,7 +21,7 @@ const MenuItem = ({
 }) => {
   return (
     <div className={`${styles.menuItem} row`}>
-      <div className="col-md-4">
+      <div className="col-md-2">
         {/* <Image
           className={styles.menuImg}
           src={src}
@@ -31,7 +31,7 @@ const MenuItem = ({
           objectFit="cover"
         /> */}
       </div>
-      <div className={`${styles.menuContent} col-md-8`}>
+      <div className={`${styles.menuContent} col-md-10`}>
         <h5 className={styles.menuTitle}>
           <span>{name}</span>
           <span className={styles.menuPrice}>{price}</span>

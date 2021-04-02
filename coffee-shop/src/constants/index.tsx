@@ -2,18 +2,22 @@ export const navigationData = [
   {
     id: 1,
     label: "Home",
+    href: "/",
   },
   {
     id: 2,
     label: "About",
+    href: "/about",
   },
   {
     id: 3,
     label: "Menu",
+    href: "/menu",
   },
   {
     id: 4,
     label: "NewsEvents",
+    href: "/news",
   },
 ];
 
@@ -43,6 +47,7 @@ export const carouselData = [
 
 export const newsEventsData = [
   {
+    id: "0",
     image: {
       src: "/news-1.jpeg",
       alt: "news image 1",
@@ -54,6 +59,7 @@ export const newsEventsData = [
     note: "Post by mTheme / Coffee / 7 comments",
   },
   {
+    id: "1",
     image: {
       src: "/news-2.jpeg",
       alt: "news image 2",
@@ -65,6 +71,7 @@ export const newsEventsData = [
     note: "Post by mTheme / Coffee / 7 comments",
   },
   {
+    id: "2",
     image: {
       src: "/news-3.jpeg",
       alt: "news image 3",
@@ -76,6 +83,7 @@ export const newsEventsData = [
     note: "Post by mTheme / Coffee / 7 comments",
   },
   {
+    id: "3",
     image: {
       src: "/news-4.jpeg",
       alt: "news image 4",
@@ -87,6 +95,7 @@ export const newsEventsData = [
     note: "Post by mTheme / Coffee / 7 comments",
   },
   {
+    id: "4",
     image: {
       src: "/news-5.jpeg",
       alt: "news image 5",
@@ -109,8 +118,8 @@ export const menuData = [
     items: [
       {
         image: {
-          src: "/menu-1.png",
-          alt: "image category 1",
+          src: "",
+          alt: "",
         },
         name: "coffee ice",
         price: "$29.00",
@@ -119,8 +128,8 @@ export const menuData = [
       },
       {
         image: {
-          src: "/menu-1.png",
-          alt: "image category 1",
+          src: "",
+          alt: "",
         },
         name: "coffee ice milk",
         price: "$33.00",
@@ -129,8 +138,8 @@ export const menuData = [
       },
       {
         image: {
-          src: "/menu-1.png",
-          alt: "image category 1",
+          src: "",
+          alt: "",
         },
         name: "hot coffee",
         price: "$29.00",
@@ -139,8 +148,8 @@ export const menuData = [
       },
       {
         image: {
-          src: "/menu-1.png",
-          alt: "image category 1",
+          src: "",
+          alt: "",
         },
         name: "coffee chocolate",
         price: "$29.00",
@@ -158,8 +167,8 @@ export const menuData = [
     items: [
       {
         image: {
-          src: "/menu-1.png",
-          alt: "image category 1",
+          src: "",
+          alt: "",
         },
         name: "fresh milk",
         price: "$29.00",
@@ -168,8 +177,8 @@ export const menuData = [
       },
       {
         image: {
-          src: "/menu-1.png",
-          alt: "image category 1",
+          src: "",
+          alt: "",
         },
         name: "milk ice",
         price: "$33.00",
@@ -178,8 +187,8 @@ export const menuData = [
       },
       {
         image: {
-          src: "/menu-1.png",
-          alt: "image category 1",
+          src: "",
+          alt: "",
         },
         name: "mudslide recipe milk",
         price: "$29.00",
@@ -188,8 +197,8 @@ export const menuData = [
       },
       {
         image: {
-          src: "/menu-1.png",
-          alt: "image category 1",
+          src: "",
+          alt: "",
         },
         name: "sarati lassi milk",
         price: "$39.00",
@@ -207,8 +216,8 @@ export const menuData = [
     items: [
       {
         image: {
-          src: "/menu-1.png",
-          alt: "image category 1",
+          src: "",
+          alt: "",
         },
         name: "cocktaila moscow mule",
         price: "$29.00",
@@ -217,8 +226,8 @@ export const menuData = [
       },
       {
         image: {
-          src: "/menu-1.png",
-          alt: "image category 1",
+          src: "",
+          alt: "",
         },
         name: "bullfrog cocktail",
         price: "$33.00",
@@ -227,8 +236,8 @@ export const menuData = [
       },
       {
         image: {
-          src: "/menu-1.png",
-          alt: "image category 1",
+          src: "",
+          alt: "",
         },
         name: "cocktail oranges",
         price: "$29.00",
@@ -237,8 +246,8 @@ export const menuData = [
       },
       {
         image: {
-          src: "/menu-1.png",
-          alt: "image category 1",
+          src: "",
+          alt: "",
         },
         name: "cocktail desert",
         price: "$39.00",
@@ -256,8 +265,8 @@ export const menuData = [
     items: [
       {
         image: {
-          src: "/menu-1.png",
-          alt: "image category 1",
+          src: "",
+          alt: "",
         },
         name: "tiple lemon drop",
         price: "$39.00",
@@ -266,8 +275,8 @@ export const menuData = [
       },
       {
         image: {
-          src: "/menu-1.png",
-          alt: "image category 1",
+          src: "",
+          alt: "",
         },
         name: "citrus iced tea punch",
         price: "$45.00",
@@ -276,8 +285,8 @@ export const menuData = [
       },
       {
         image: {
-          src: "/menu-1.png",
-          alt: "image category 1",
+          src: "",
+          alt: "",
         },
         name: "mint tea juleps",
         price: "$40.00",
@@ -286,8 +295,8 @@ export const menuData = [
       },
       {
         image: {
-          src: "/menu-1.png",
-          alt: "image category 1",
+          src: "",
+          alt: "",
         },
         name: "pina tea-la-da",
         price: "$39.00",

@@ -7,7 +7,7 @@ import { type } from "node:os";
 
 type Props = {
   title?: string;
-  text?: string;
+  description?: string;
   note?: string;
   date?: string;
   quote?: string;
@@ -15,7 +15,7 @@ type Props = {
 
 const EntryDetail = ({
   title = "",
-  text = "",
+  description = "",
   note = "",
   date = "",
   quote = "",
@@ -29,10 +29,10 @@ const EntryDetail = ({
           </div>
           <div className="col-md-9">
             <Entry title={title} note={note} />
-            <p>{text}</p>
-            <p>{text}</p>
+            <p>{description}</p>
+            <p>{description}</p>
             <blockquote className={styles.entryQuote}>{quote}</blockquote>
-            <p>{text}</p>
+            <p>{description}</p>
           </div>
         </div>
       </div>

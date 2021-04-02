@@ -19,8 +19,6 @@ export default function Home() {
     <div className={styles.container}>
       <SEO title="Home page" description="This is Home page" />
 
-      {/* <Carousel data={carouselData} /> */}
-
       <Hero isActiveCarousel />
 
       <InfoUs />
@@ -34,10 +32,6 @@ export default function Home() {
       <Bulletproof />
 
       <Footer />
-
-      <EntryDetail />
-
-      {/* <Navigation menu={navigationData} classNames="" /> */}
     </div>
   );
 }

@@ -36,10 +36,8 @@ const Navigation = ({ menu = [], classNames = "" }) => {
             {menu.map((item, index) => {
               return (
                 <li className="nav-item active" key={`${index}-${item.label}`}>
-                  <Link href={item.label}>
-                    <a className={styles.linkItem} href="#">
-                      {item.label}
-                    </a>
+                  <Link href={item.href}>
+                    <a className={styles.linkItem}>{item.label}</a>
                   </Link>
                 </li>
               );

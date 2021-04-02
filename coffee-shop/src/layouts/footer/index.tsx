@@ -59,10 +59,7 @@ export default function Footer() {
             </div>
           </div>
           <div className={styles.copyright}>
-            <p className={styles.copyrightText}>
-              Copyright © 2015{" "}
-              {/*<a href="http://themeforest.net/user/mtheme_market">mTheme</a>. All Rights Reserved. */}
-            </p>
+            <p className={styles.copyrightText}>Copyright © 2015 </p>
           </div>
         </div>
       </footer>
