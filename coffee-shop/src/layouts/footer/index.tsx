@@ -4,7 +4,9 @@ import Link from "next/link";
 
 import styles from "./Footer.module.css";
 
-export default function Footer() {
+type Props = {};
+
+const Footer = ({}: Props) => {
   return (
     <>
       <footer className={styles.footer}>
@@ -35,7 +37,6 @@ export default function Footer() {
               </div>
               <div className={`${styles.widget} col-md-4`}>
                 <h3 className={styles.title}>For Business</h3>
-
                 <ul className={styles.widgetContent}>
                   <li className={styles.widgetLink}>
                     <Link href="#"> Office Coffee</Link>
@@ -65,4 +66,6 @@ export default function Footer() {
       </footer>
     </>
   );
-}
+};
+
+export default Footer;

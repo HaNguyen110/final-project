@@ -4,7 +4,7 @@ import Image from "next/image";
 
 type Props = {};
 
-const Flickity = ({}) => {
+const Flickity = ({}: Props) => {
   return (
     <div>
       <Image

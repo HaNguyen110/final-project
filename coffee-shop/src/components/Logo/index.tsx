@@ -9,7 +9,7 @@ type Props = {
   height: number;
 };
 
-const Logo = ({ url = "", alt = "", width, height }) => {
+const Logo = ({ url = "", alt = "", width = 0, height = 0 }: Props) => {
   return (
     <div className={styles.imgLogo}>
       <Image src={url} alt={alt} width={width} height={height} />;

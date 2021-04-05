@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 import styles from "./Entry.module.css";
 import Post from "../Post";
@@ -11,7 +10,7 @@ type Props = {
   date?: string;
 };
 
-const Entry = ({ title = "", text = "", note = "", date = "" }) => {
+const Entry = ({ title = "", text = "", note = "", date = "" }: Props) => {
   return (
     <div className={styles.entry}>
       <div className={styles.entryDate}>{date}</div>

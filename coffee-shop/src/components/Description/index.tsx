@@ -18,7 +18,7 @@ const Description = ({
   text = "",
   comment = "",
   classNames = {},
-}) => {
+}: Props) => {
   return (
     <>
       <div className={`${styles.title} ${classNames.title}`}>{title}</div>

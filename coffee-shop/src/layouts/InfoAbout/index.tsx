@@ -1,30 +1,29 @@
 import React from "react";
-//import CarouselItem, { Item } from "./CarouselItem";
+
 import Image from "next/image";
 
 import styles from "./InfoAbout.module.css";
 
 import Description from "../../components/Description";
 
-type Props = {
-  title?: string;
-  text?: string;
-  comment?: string;
-  src?: string;
-  alt?: string;
-  width?: number;
-  heigt?: number;
+type image = {
+  src: string;
+  alt: string;
 };
 
-const Carousel = ({
-  title = "",
-  text = "",
-  comment = "",
-  src = "",
-  alt = "",
-  width = "",
-  heigt = "",
-}) => {
+type infoAboutData = {
+  title: string;
+  text: string;
+  comment: string;
+  image: image;
+};
+
+type Props = {
+  infoAboutData?: infoAboutData;
+};
+
+const InfoAbout = ({ infoAboutData }: Props) => {
+  const { title, text, comment, image } = infoAboutData;
   return (
     <div className={styles.about}>
       <div className="container">
@@ -34,11 +33,10 @@ const Carousel = ({
           </div>
           <div className="col-md-5">
             <Image
-              className=""
-              src={src}
-              alt={alt}
-              width={width}
-              height={heigt}
+              src={image.src}
+              alt={image.alt}
+              width={457}
+              height={329}
               objectFit="cover"
             />
           </div>
@@ -48,4 +46,4 @@ const Carousel = ({
   );
 };
 
-export default Carousel;
+export default InfoAbout;

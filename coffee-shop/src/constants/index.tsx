@@ -16,7 +16,7 @@ export const navigationData = [
   },
   {
     id: 4,
-    label: "NewsEvents",
+    label: "News & Events",
     href: "/news",
   },
 ];

@@ -18,7 +18,6 @@ const NewsDetailPost = ({ detail }) => {
   const { src = "", alt = "" } = image || {};
   const { title = "" } = detail || {};
 
-  console.log("dta", detail);
   return (
     <div>
       <Hero src="/bgNew.jpg" title="News & Events" />

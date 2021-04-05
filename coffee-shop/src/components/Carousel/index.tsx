@@ -5,7 +5,7 @@ type Props = {
   data?: Item[];
 };
 
-const Carousel = ({ data = [] }) => {
+const Carousel = ({ data = [] }: Props) => {
   return (
     <div
       id="carouselExampleIndicators"

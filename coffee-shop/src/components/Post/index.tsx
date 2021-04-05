@@ -6,7 +6,7 @@ type Props = {
   text?: string;
 };
 
-const Post = ({ title = "", text = "" }) => {
+const Post = ({ title = "", text = "" }: Props) => {
   return (
     <>
       <div className={styles.title}>{title}</div>

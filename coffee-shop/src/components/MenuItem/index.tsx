@@ -8,7 +8,7 @@ type Props = {
   src?: string;
   alt?: string;
   name?: string;
-  price?: number;
+  price?: string;
   description?: string;
 };
 
@@ -18,7 +18,7 @@ const MenuItem = ({
   name = "",
   price = "",
   description = "",
-}) => {
+}: Props) => {
   return (
     <div className={`${styles.menuItem} row`}>
       <div className="col-md-2">

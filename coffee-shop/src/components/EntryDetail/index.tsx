@@ -19,7 +19,7 @@ const EntryDetail = ({
   note = "",
   date = "",
   quote = "",
-}) => {
+}: Props) => {
   return (
     <div className={styles.entryDetail}>
       <div className="container">

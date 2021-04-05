@@ -5,7 +5,6 @@ import Image from "next/image";
 
 import styles from "./NewPost.module.css";
 import Entry from "../../components/Entry";
-// import Post from "../../components/Post";
 
 type Props = {
   src?: string;

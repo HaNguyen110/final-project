@@ -4,7 +4,9 @@ import Image from "next/image";
 
 import styles from "./Service.module.css";
 
-export default function Service() {
+type Props = {};
+
+const Service = ({}: Props) => {
   return (
     <Image
       className={styles.imgService}
@@ -15,4 +17,6 @@ export default function Service() {
       objectFit="cover"
     />
   );
-}
+};
+
+export default Service;

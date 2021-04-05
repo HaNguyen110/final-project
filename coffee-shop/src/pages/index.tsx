@@ -11,17 +11,19 @@ import Recipe from "../layouts/Recipe";
 import Latest from "../layouts/Latest";
 import Bulletproof from "../layouts/Bulletproof";
 import Footer from "../layouts/Footer";
-import Entry from "../components/Entry";
-import EntryDetail from "../components/EntryDetail";
 
-export default function Home() {
+import { infoUsData } from "../constants/aboutMocksData";
+
+type Props = {};
+
+export default function Home({}: Props) {
   return (
     <div className={styles.container}>
       <SEO title="Home page" description="This is Home page" />
 
       <Hero isActiveCarousel />
 
-      <InfoUs />
+      <InfoUs infoUsData={infoUsData} />
 
       <Service />
 

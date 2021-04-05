@@ -1,12 +1,14 @@
 import React from "react";
+
 import Image from "next/image";
 
 import styles from "./OutMission.module.css";
+
 import Description from "../../components/Description";
 
 type Props = {};
 
-const OutMission = ({}) => {
+const OutMission = ({}: Props) => {
   return (
     <div className={styles.OurMission}>
       <div className="container">

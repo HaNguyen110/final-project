@@ -37,6 +37,7 @@ const CarouselItem = ({ item }: Props) => {
         alt={item.alt}
         width={1370}
         height={600}
+        objectFit="cover"
       />
     </div>
   );

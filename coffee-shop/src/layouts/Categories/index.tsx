@@ -12,14 +12,17 @@ type Props = {
   title?: string;
   description?: string;
   note?: string;
+  price?: number;
+  name?: string;
+  menuData?: string;
 };
 
 const MenuCategory = ({
-  menuData,
+  menuData = "",
   src = "",
   alt = "",
   name = "",
-  price = "",
+  price = 0,
   description = "",
 }) => {
   const {

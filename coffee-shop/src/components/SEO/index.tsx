@@ -7,7 +7,7 @@ type Props = {
   siteTitle?: string;
 };
 
-const SEO = ({ description = "", title = "", siteTitle = "" }) => {
+const SEO = ({ description = "", title = "", siteTitle = "" }: Props) => {
   return (
     <Head>
       <title>{`${title} | ${siteTitle}`}</title>

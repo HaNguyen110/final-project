@@ -13,12 +13,16 @@ type Props = {
   height?: number;
 };
 
-const NewsDetailPost = ({ src = "", alt = "", width = "", height = "" }) => {
+const NewsDetailPost = ({
+  src = "",
+  alt = "",
+  width = 0,
+  height = 0,
+}: Props) => {
   return (
     <div className={styles.detailPost}>
       <div className={styles.detailImg}>
         <Image
-          className=""
           src={src}
           alt={alt}
           width={width}

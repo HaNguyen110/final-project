@@ -6,7 +6,10 @@ import Post from "../../components/Post";
 
 import Image from "next/image";
 
-export default function Recipe() {
+type Props = {};
+
+export default function Recipe({}: Props) {
+  //const {title, text}= recipe || {}
   return (
     <div className={styles.infoRecipe}>
       <div className="container">
@@ -16,7 +19,7 @@ export default function Recipe() {
               <div className="col-md-6">
                 <div className={styles.infoPost}>
                   <Post
-                    title="do you want to retation the video recippe ?"
+                    //title={title}
                     text="Coffee is a ritual, a small treat in the morning, 
                     “fuel”, a break, chat, affair that makes up our lives. 
                     Making the coffee better, we make our lives better."

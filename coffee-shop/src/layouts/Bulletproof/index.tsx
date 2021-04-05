@@ -8,7 +8,7 @@ import Post from "../../components/Post";
 
 type Props = {};
 
-const Bulletproof = ({}) => {
+const Bulletproof = ({}: Props) => {
   return (
     <div className={styles.bulletproof}>
       <div className="container">
