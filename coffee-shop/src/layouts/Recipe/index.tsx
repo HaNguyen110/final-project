@@ -5,11 +5,28 @@ import styles from "./Recipe.module.css";
 import Post from "../../components/Post";
 
 import Image from "next/image";
+import Description from "../../components/Description";
 
-type Props = {};
+type content = {
+  description: string;
+};
 
-export default function Recipe({}: Props) {
-  //const {title, text}= recipe || {}
+type recipeData = {
+  title: string;
+  text: string;
+  src: string;
+  alt: string;
+  content: Array<content>;
+};
+
+type Props = {
+  recipeData: recipeData;
+};
+
+const Recipe = ({ recipeData }: Props) => {
+  const { title, text, src, alt, content } = recipeData;
+  const coffee = content[0];
+  const roastedCoffee = content[1];
   return (
     <div className={styles.infoRecipe}>
       <div className="container">
@@ -18,19 +35,14 @@ export default function Recipe({}: Props) {
             <div className="row">
               <div className="col-md-6">
                 <div className={styles.infoPost}>
-                  <Post
-                    //title={title}
-                    text="Coffee is a ritual, a small treat in the morning, 
-                    “fuel”, a break, chat, affair that makes up our lives. 
-                    Making the coffee better, we make our lives better."
-                  />
+                  <Post title={title} text={text} />
                 </div>
               </div>
               <div className="col-md-6">
                 <Image
                   className={styles.imgRecipe}
-                  src="/img-13.png"
-                  alt="recipe"
+                  src={src}
+                  alt={alt}
                   height={285}
                   width={326}
                   objectFit="cover"
@@ -42,12 +54,12 @@ export default function Recipe({}: Props) {
             <div className="row">
               <div className="col-lg-6">
                 <h5 className={styles.comment}>
-                  gather more knowledge from coffee
+                  <Description text={coffee.description} />
                 </h5>
               </div>
               <div className="col-lg-6">
                 <h5 className={styles.comment}>
-                  work with green and roasted coffee provides
+                  <Description text={roastedCoffee.description} />
                 </h5>
               </div>
             </div>
@@ -56,4 +68,6 @@ export default function Recipe({}: Props) {
       </div>
     </div>
   );
-}
+};
+
+export default Recipe;

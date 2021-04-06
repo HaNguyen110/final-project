@@ -13,6 +13,7 @@ import Bulletproof from "../layouts/Bulletproof";
 import Footer from "../layouts/Footer";
 
 import { infoUsData } from "../constants/aboutMocksData";
+import { latestData, recipeData, serverData } from "../constants/index";
 
 type Props = {};
 
@@ -25,11 +26,11 @@ export default function Home({}: Props) {
 
       <InfoUs infoUsData={infoUsData} />
 
-      <Service />
+      <Service serverData={serverData} />
 
-      <Latest />
+      <Latest latestData={latestData} />
 
-      <Recipe />
+      <Recipe recipeData={recipeData} />
 
       <Bulletproof />
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-import { menuData } from "../../constants";
+import { menuData } from "../../constants/menuMocksData";
 
 import MenuCategory from "../../layouts/Categories";
 import Hero from "../../layouts/Hero";

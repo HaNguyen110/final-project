@@ -4,14 +4,26 @@ import Image from "next/image";
 
 import styles from "./Service.module.css";
 
-type Props = {};
+type image = {
+  src: string;
+  alt: string;
+};
 
-const Service = ({}: Props) => {
+type serverData = {
+  image: image;
+};
+
+type Props = {
+  serverData: serverData;
+};
+
+const Service = ({ serverData }: Props) => {
+  const { image } = serverData;
   return (
     <Image
       className={styles.imgService}
-      src="/bg-2.jpg"
-      alt="bg"
+      src={image.src}
+      alt={image.alt}
       height={740}
       width={1370}
       objectFit="cover"

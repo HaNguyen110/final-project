@@ -7,25 +7,40 @@ import Image from "next/image";
 import Description from "../../components/Description";
 import Post from "../../components/Post";
 
-type Props = {};
+type item = {
+  subTitle: string;
+  description: string;
+  src: string;
+  alt: string;
+};
 
-const Latest = ({}: Props) => {
+type latestData = {
+  items: Array<item>;
+  title: string;
+  src: string;
+  alt: string;
+};
+
+type Props = {
+  latestData: latestData;
+};
+
+const Latest = ({ latestData }: Props) => {
+  const { title, src, alt, items } = latestData;
+  const latestTea = items[0];
+  const latestCoffee = items[1];
   return (
     <div className={styles.latest}>
       <div className="container">
         <div className="row">
           <div className={`${styles.infoLatest} col`}>
-            <Description
-              title="latest update"
-              classNames={{ title: "text-center" }}
-            />
+            <Description title={title} classNames={{ title: "text-center" }} />
             <div className={`${styles.line} row`}>
               <div className="col-md-4">
                 <div className={styles.img}>
                   <Image
-                    className=""
-                    src="/latest-1.png"
-                    alt=""
+                    src={latestTea.src}
+                    alt={latestTea.alt}
                     width={220}
                     height={143}
                     objectFit="cover"
@@ -36,31 +51,26 @@ const Latest = ({}: Props) => {
               <div className="col-md-8">
                 <div className={styles.latestContent}>
                   <Post
-                    title="happy hour, between 4pm & 5pm"
-                    text="In specialty coffee culture an ability to properly brew coffee
-                  is summing it all up. In one cup of coffee we bring together efforts 
-                  of all of those who worked o..."
+                    title={latestTea.subTitle}
+                    text={latestTea.description}
                   />
                 </div>
               </div>
-            </div>{" "}
+            </div>
             <div className={`${styles.line} row`}>
               <div className="col-md-8">
                 <div className={styles.latestContent}>
                   <Post
-                    title="happy hour, between 4pm & 5pm"
-                    text="In specialty coffee culture an ability to properly brew coffee
-                  is summing it all up. In one cup of coffee we bring together efforts 
-                  of all of those who worked o..."
+                    title={latestCoffee.subTitle}
+                    text={latestCoffee.description}
                   />
                 </div>
               </div>
               <div className="col-md-4">
                 <div className={styles.img}>
                   <Image
-                    className=""
-                    src="/latest-2.png"
-                    alt=""
+                    src={latestCoffee.src}
+                    alt={latestCoffee.alt}
                     width={220}
                     height={155}
                     objectFit="cover"
@@ -73,8 +83,8 @@ const Latest = ({}: Props) => {
             <div className={styles.img}>
               <Image
                 className={styles.coffeeImg}
-                src="/coffee.jpg"
-                alt=""
+                src={src}
+                alt={alt}
                 width={427}
                 height={540}
               />
