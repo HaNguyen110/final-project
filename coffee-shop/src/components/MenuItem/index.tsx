@@ -1,7 +1,5 @@
 import React from "react";
 
-import Image from "next/image";
-
 import styles from "./MenuItem.module.css";
 
 type Props = {
@@ -21,16 +19,7 @@ const MenuItem = ({
 }: Props) => {
   return (
     <div className={`${styles.menuItem} row`}>
-      <div className="col-md-2">
-        {/* <Image
-          className={styles.menuImg}
-          src={src}
-          alt={alt}
-          width={50}
-          height={60}
-          objectFit="cover"
-        /> */}
-      </div>
+      <div className="col-md-2"></div>
       <div className={`${styles.menuContent} col-md-10`}>
         <h5 className={styles.menuTitle}>
           <span>{name}</span>

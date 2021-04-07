@@ -2,20 +2,32 @@ import React from "react";
 
 import Image from "next/image";
 
-type Props = {};
+type image = {
+  src: string;
+  alt: string;
+};
 
-const Flickity = ({}: Props) => {
+type flickityData = {
+  image: image;
+};
+
+type Props = {
+  flickityData: flickityData;
+};
+
+const Flickity = ({ flickityData }: Props) => {
+  const { image } = flickityData;
+  console.log("flickityData", flickityData);
+
   return (
-    <div>
-      <Image
-        className=""
-        src="/bgAbout-2.jpg"
-        alt=""
-        width={1370}
-        height={500}
-        objectFit="cover"
-      />
-    </div>
+    <Image
+      src={image.src}
+      alt={image.alt}
+      width={1370}
+      height={500}
+      objectFit="cover"
+    />
   );
 };
+
 export default Flickity;

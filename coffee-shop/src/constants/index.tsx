@@ -1,3 +1,10 @@
+export const logoData = {
+  image: {
+    url: "/logo.png",
+    alt: " Coffee Shop Logo",
+  },
+};
+
 export const navigationData = [
   {
     id: 1,
@@ -89,6 +96,80 @@ export const recipeData = {
     },
   ],
 };
+
+export const bulletproofData = {
+  image: {
+    src: "/img-10.png",
+    alt: "bulletproof",
+  },
+  title: "get your bulletproof coffee making kit",
+  quote:
+    "“The easiest and most convenient way I have used in making Bulletproof coffee. We use it very day.”",
+
+  items: [
+    {
+      text: "1 cup unsweetened cocoa powder",
+    },
+    {
+      text: "1/2 cup butter, cut into 1–inch pieces",
+    },
+    {
+      text: "1 1/4 cups granulated sugar",
+    },
+    {
+      text: "1/2 cup firmly packed dark brown sugar",
+    },
+    {
+      text: "1 1/4 tsp baking soda",
+    },
+    {
+      text: "Add a Klean Kanteen Insulated Coffee Flask / Shaker & a Cafe Cap",
+    },
+  ],
+};
+
+export const footerData = [
+  {
+    title: "about us",
+    items: [
+      {
+        text:
+          "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.",
+      },
+      {
+        text: "hello@mtheme.org",
+      },
+      {
+        text: "+(84)123456789",
+      },
+      {
+        text: "198 West 21th Street, Suite 721 New York NY 10010",
+      },
+    ],
+  },
+  {
+    title: "for business",
+    items: [
+      {
+        text: "Office Coffee",
+      },
+      {
+        text: "Food Service",
+      },
+      {
+        text: "Affiliate Program",
+      },
+    ],
+  },
+  {
+    title: "follow us",
+    items: [
+      {
+        text: "Follow Origin on the following social network sites.",
+      },
+    ],
+  },
+];
 
 export const newsEventsData = [
   {

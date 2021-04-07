@@ -1,11 +1,11 @@
-.entryDate {
+.date {
   font-size: 40px;
   font-weight: bold;
   color: #5c5c68;
   margin-bottom: 15px;
 }
 
-.entryMeta {
+.meta {
   position: relative;
   padding-top: 35px;
   color: #828282;
@@ -13,7 +13,7 @@
   line-height: 22px;
 }
 
-.entryMeta:after {
+.meta:after {
   content: "";
   position: absolute;
   top: 30px;

@@ -2,7 +2,7 @@ import React from "react";
 
 import Image from "next/image";
 
-import styles from "./InfoAbout.module.css";
+import styles from "./OurPromise.module.css";
 
 import Description from "../../components/Description";
 
@@ -11,28 +11,28 @@ type image = {
   alt: string;
 };
 
-type infoAboutData = {
+type ourPromiseData = {
   title: string;
   text: string;
-  comment: string;
   image: image;
 };
 
 type Props = {
-  infoAboutData?: infoAboutData;
+  ourPromiseData?: ourPromiseData;
 };
 
-const InfoAbout = ({ infoAboutData }: Props) => {
-  const { title, text, comment, image } = infoAboutData;
+const OurPromise = ({ ourPromiseData }: Props) => {
+  const { title, text, image } = ourPromiseData;
   return (
-    <div className={styles.about}>
+    <div className={styles.promise}>
       <div className="container">
         <div className={`${styles.aboutContent} row`}>
           <div className="col-md-7">
-            <Description title={title} text={text} comment={comment} />
+            <Description title={title} text={text} />
           </div>
           <div className="col-md-5">
             <Image
+              className={styles.promiseImg}
               src={image.src}
               alt={image.alt}
               width={457}
@@ -46,4 +46,4 @@ const InfoAbout = ({ infoAboutData }: Props) => {
   );
 };
 
-export default InfoAbout;
+export default OurPromise;

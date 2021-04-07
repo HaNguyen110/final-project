@@ -10,10 +10,10 @@ const Menu = () => {
   return (
     <>
       <Hero src="/bgMenu.jpg" title="menu" />
-      {menuData.map((item, index) => {
-        return <MenuCategory menuData={item} key={index} />;
+      {menuData.map((item) => {
+        return <MenuCategory menuData={item} key={item.id} />;
       })}
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

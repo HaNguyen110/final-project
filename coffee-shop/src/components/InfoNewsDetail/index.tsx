@@ -1,9 +1,8 @@
 import React from "react";
 
-import styles from "./EntryDetail.module.css";
-import Post from "../Post";
-import Entry from "../Entry";
-import { type } from "node:os";
+import styles from "./InfoNewsDetail.module.css";
+
+import InfoNews from "../InfoNews";
 
 type Props = {
   title?: string;
@@ -13,7 +12,7 @@ type Props = {
   quote?: string;
 };
 
-const EntryDetail = ({
+const InfoNewDetail = ({
   title = "",
   description = "",
   note = "",
@@ -21,17 +20,17 @@ const EntryDetail = ({
   quote = "",
 }: Props) => {
   return (
-    <div className={styles.entryDetail}>
+    <div className={styles.infoNewsDetail}>
       <div className="container">
         <div className="row">
           <div className="col-md-3">
-            <Entry date={date} />
+            <InfoNews date={date} />
           </div>
           <div className="col-md-9">
-            <Entry title={title} note={note} />
+            <InfoNews title={title} note={note} />
             <p>{description}</p>
             <p>{description}</p>
-            <blockquote className={styles.entryQuote}>{quote}</blockquote>
+            <blockquote className={styles.infoNewsQuote}>{quote}</blockquote>
             <p>{description}</p>
           </div>
         </div>
@@ -40,4 +39,4 @@ const EntryDetail = ({
   );
 };
 
-export default EntryDetail;
+export default InfoNewDetail;

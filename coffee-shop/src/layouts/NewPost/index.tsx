@@ -4,15 +4,27 @@ import Link from "next/link";
 import Image from "next/image";
 
 import styles from "./NewPost.module.css";
-import Entry from "../../components/Entry";
+import InfoNews from "../../components/InfoNews";
 
-type Props = {
-  src?: string;
-  alt?: string;
-  text?: string;
+type image = {
+  src: string;
+  alt: string;
 };
 
-const NewPost = ({ src = "", alt = "", text = "", newsEventsData }) => {
+type newsEventsData = {
+  image: image;
+  id: number;
+  date: string;
+  title: string;
+  description: string;
+  note: string;
+};
+
+type Props = {
+  newsEventsData: newsEventsData;
+};
+
+const NewPost = ({ newsEventsData }: Props) => {
   const { id, image, date, title, description, note } = newsEventsData;
 
   return (
@@ -31,7 +43,12 @@ const NewPost = ({ src = "", alt = "", text = "", newsEventsData }) => {
               />
             </div>
             <div className="col-md-6">
-              <Entry date={date} title={title} text={description} note={note} />
+              <InfoNews
+                date={date}
+                title={title}
+                text={description}
+                note={note}
+              />
             </div>
           </div>
         </Link>

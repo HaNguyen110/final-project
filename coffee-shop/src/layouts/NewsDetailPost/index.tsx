@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import styles from "./NewsDetailPost.module.css";
 
-import EntryDetail from "../../components/EntryDetail";
+import InfoNewDetail from "../../components/InfoNewsDetail";
 
 type Props = {
   src?: string;
@@ -31,7 +31,7 @@ const NewsDetailPost = ({
         />
       </div>
       <div className={styles.detailContent}>
-        <EntryDetail />
+        <InfoNewDetail />
       </div>
     </div>
   );

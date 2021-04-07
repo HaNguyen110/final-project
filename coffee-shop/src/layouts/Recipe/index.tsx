@@ -3,9 +3,9 @@ import React from "react";
 import styles from "./Recipe.module.css";
 
 import Post from "../../components/Post";
+import Description from "../../components/Description";
 
 import Image from "next/image";
-import Description from "../../components/Description";
 
 type content = {
   description: string;

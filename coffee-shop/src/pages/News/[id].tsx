@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import styles from "./News.module.css";
 
-import EntryDetail from "../../components/EntryDetail";
+import InfoNewsDetail from "../../components/InfoNewsDetail";
 import Hero from "../../layouts/Hero";
 import Footer from "../../layouts/Footer";
 
@@ -33,7 +33,7 @@ const NewsDetailPost = ({ detail }) => {
       </div>
 
       <div>
-        <EntryDetail
+        <InfoNewsDetail
           title={title}
           date={date}
           note={note}
@@ -41,8 +41,6 @@ const NewsDetailPost = ({ detail }) => {
           description={description}
         />
       </div>
-
-      <Footer />
     </div>
   );
 };

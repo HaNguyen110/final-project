@@ -1,0 +1,49 @@
+import React from "react";
+
+import Image from "next/image";
+
+import styles from "./OurMethods.module.css";
+
+import Description from "../../components/Description";
+
+type image = {
+  src: string;
+  alt: string;
+};
+
+type ourMethodsData = {
+  title: string;
+  text: string;
+  image: image;
+};
+
+type Props = {
+  ourMethodsData?: ourMethodsData;
+};
+
+const OurMethods = ({ ourMethodsData }: Props) => {
+  const { title, text, image } = ourMethodsData;
+  return (
+    <div className={styles.methods}>
+      <div className="container">
+        <div className={`${styles.aboutContent} row`}>
+          <div className="col-md-5">
+            <Image
+              className={styles.mrthodsImg}
+              src={image.src}
+              alt={image.alt}
+              width={350}
+              height={370}
+              objectFit="cover"
+            />
+          </div>
+          <div className="col-md-7">
+            <Description title={title} text={text} />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default OurMethods;

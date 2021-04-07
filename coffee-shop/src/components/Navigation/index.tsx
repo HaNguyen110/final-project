@@ -5,6 +5,7 @@ import styles from "./Navigation.module.css";
 type Item = {
   id?: number;
   label?: string;
+  href: string;
 };
 
 type Props = {

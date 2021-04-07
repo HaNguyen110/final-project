@@ -13,7 +13,14 @@ import Bulletproof from "../layouts/Bulletproof";
 import Footer from "../layouts/Footer";
 
 import { infoUsData } from "../constants/aboutMocksData";
-import { latestData, recipeData, serverData } from "../constants/index";
+import {
+  latestData,
+  recipeData,
+  serverData,
+  logoData,
+  bulletproofData,
+  footerData,
+} from "../constants/index";
 
 type Props = {};
 
@@ -32,9 +39,9 @@ export default function Home({}: Props) {
 
       <Recipe recipeData={recipeData} />
 
-      <Bulletproof />
+      <Bulletproof bulletproofData={bulletproofData} />
 
-      <Footer />
+      {/* <Footer footerData={footerData} /> */}
     </div>
   );
 }

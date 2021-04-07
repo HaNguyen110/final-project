@@ -5,31 +5,30 @@ import Image from "next/image";
 import styles from "./MenuCategory.module.css";
 import MenuItem from "../../components/MenuItem";
 
-type Props = {
-  src?: string;
-  alt?: string;
-  date?: string;
-  title?: string;
-  description?: string;
-  note?: string;
-  price?: number;
-  name?: string;
-  menuData?: string;
+type item = {
+  name: string;
+  price: string;
+  description: string;
 };
 
-const MenuCategory = ({
-  menuData = "",
-  src = "",
-  alt = "",
-  name = "",
-  price = 0,
-  description = "",
-}) => {
-  const {
-    category,
-    image,
-    items = { src, alt, name, price, description },
-  } = menuData;
+type image = {
+  src: string;
+  alt: string;
+};
+
+type menuData = {
+  id: string;
+  items: Array<item>;
+  category: string;
+  image: image;
+};
+
+type Props = {
+  menuData: menuData;
+};
+
+const MenuCategory = ({ menuData }: Props) => {
+  const { category, image, items } = menuData;
   console.log("items", items);
   return (
     <div className={styles.menu}>
@@ -60,11 +59,6 @@ const MenuCategory = ({
                 </div>
               );
             })}
-            <MenuItem
-              name={items.name}
-              price={items.price}
-              description={items.description}
-            />
           </div>
         </div>
       </div>

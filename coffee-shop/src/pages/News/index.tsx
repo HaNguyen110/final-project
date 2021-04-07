@@ -15,10 +15,9 @@ const News = ({ data }) => {
       <div>
         <SEO title="News & Events page" description="This is New page" />
         <Hero src="/bgNew.jpg" title="News & Events" />
-        {data.map((item, index) => {
-          return <NewPost newsEventsData={item} key={index} />;
+        {data.map((item) => {
+          return <NewPost newsEventsData={item} key={item.id} />;
         })}
-        <Footer />
       </div>
     );
   }
