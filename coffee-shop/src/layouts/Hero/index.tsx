@@ -17,7 +17,7 @@ type Props = {
   title?: string;
 };
 
-const Hero = ({ isActiveCarousel = true, src = "", title = "" }: Props) => {
+const Hero = ({ isActiveCarousel, src = "", title = "" }: Props) => {
   return (
     <div className={styles.hero}>
       <div className={styles.header}>

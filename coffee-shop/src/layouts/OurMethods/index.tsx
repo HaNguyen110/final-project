@@ -14,6 +14,7 @@ type image = {
 type ourMethodsData = {
   title: string;
   text: string;
+  comment: string;
   image: image;
 };
 
@@ -22,7 +23,7 @@ type Props = {
 };
 
 const OurMethods = ({ ourMethodsData }: Props) => {
-  const { title, text, image } = ourMethodsData;
+  const { title, text, comment, image } = ourMethodsData;
   return (
     <div className={styles.methods}>
       <div className="container">
@@ -38,7 +39,7 @@ const OurMethods = ({ ourMethodsData }: Props) => {
             />
           </div>
           <div className="col-md-7">
-            <Description title={title} text={text} />
+            <Description title={title} text={text} comment={comment} />
           </div>
         </div>
       </div>

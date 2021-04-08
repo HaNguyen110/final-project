@@ -2,7 +2,7 @@ import React from "react";
 import CarouselItem, { Item } from "./CarouselItem";
 
 type Props = {
-  data?: Item[];
+  data: Item[];
 };
 
 const Carousel = ({ data = [] }: Props) => {

@@ -16,6 +16,7 @@ type content = {
   text: string;
   comment: string;
   subComment: string;
+  subText: string;
 };
 
 type ourMissionData = {
@@ -30,7 +31,6 @@ type Props = {
 const OurMission = ({ ourMissionData }: Props) => {
   const { image, content } = ourMissionData;
   const description = content[0];
-  const subDescription = content[1];
   return (
     <div className={styles.OurMission}>
       <div className="container">
@@ -50,6 +50,10 @@ const OurMission = ({ ourMissionData }: Props) => {
               title={description.title}
               text={description.text}
               comment={description.comment}
+            />
+            <Description
+              text={description.subText}
+              comment={description.subComment}
             />
           </div>
         </div>

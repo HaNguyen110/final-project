@@ -8,22 +8,22 @@ export const logoData = {
 export const navigationData = [
   {
     id: 1,
-    label: "Home",
+    label: "Trang chủ",
     href: "/",
   },
   {
     id: 2,
-    label: "About",
+    label: "Về chúng tôi",
     href: "/about",
   },
   {
     id: 3,
-    label: "Menu",
+    label: "Thực đơn",
     href: "/menu",
   },
   {
     id: 4,
-    label: "News & Events",
+    label: "Tin tức và sự kiện",
     href: "/news",
   },
 ];
@@ -65,16 +65,16 @@ export const latestData = {
   alt: "coffee",
   items: [
     {
-      subTitle: "happy hour, between 4pm & 5pm",
+      subTitle: "Giảm 10% cho hóa đơn trên 150K",
       description:
         "In specialty coffee culture an ability to properly brew coffee is summing it all up. In one cup of coffee we bring together efforts of all of those who worked o...",
       src: "/latest-1.png",
       alt: "latest 1",
     },
     {
-      subTitle: "happy hour, between 4pm & 5pm",
+      subTitle: "Kỷ niệm ngày lễ 30/4 và 1/5",
       description:
-        "In specialty coffee culture an ability to properly brew coffee is summing it all up. In one cup of coffee we bring together efforts of all of those who worked o...",
+        "Từ ngày 27/4 đến ngày 1/5/2021 khách hàng đến mua trực tiếp ở của hàng sẽ nhận được được ưu đãi sau: hóa đơn trên 100K sẽ được tặng một ly sứ  ",
       src: "/latest-2.png",
       alt: "latest 2",
     },
@@ -102,28 +102,24 @@ export const bulletproofData = {
     src: "/img-10.png",
     alt: "bulletproof",
   },
-  title: "get your bulletproof coffee making kit",
-  quote:
-    "“The easiest and most convenient way I have used in making Bulletproof coffee. We use it very day.”",
+  title: "Hãy lựa chọn cho mình món đồ mà bạn thích",
+  quote: "“Cách mà khách hàng luôn nhớ về chúng tôi mỗi khi thức dậy.”",
 
   items: [
     {
-      text: "1 cup unsweetened cocoa powder",
+      text: "Phin inox, phin gốm sứ, phin nhôm mạ màu ion",
     },
     {
-      text: "1/2 cup butter, cut into 1–inch pieces",
+      text: "Bình giữ nhiệt inox nóng / lạnh",
     },
     {
-      text: "1 1/4 cups granulated sugar",
+      text: "Bộ ống hút inox",
     },
     {
-      text: "1/2 cup firmly packed dark brown sugar",
+      text: "Ly nhựa 2 lớp, Ly sứ",
     },
     {
-      text: "1 1/4 tsp baking soda",
-    },
-    {
-      text: "Add a Klean Kanteen Insulated Coffee Flask / Shaker & a Cafe Cap",
+      text: "Túi canva cá tính",
     },
   ],
 };

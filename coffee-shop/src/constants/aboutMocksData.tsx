@@ -1,9 +1,9 @@
 const infoUsData = {
-  title: "welcome to our retation",
+  title: "chào mừng bạn đến với cửa hàng của chúng tôi",
   text:
-    "Cmspresso is the process that slowly and gradually releases the purest of essence. As tea leaves unravel and coffee patiently drips, it is the best representation of the making of tea and coffee. We want the tea and coffee from Cmspresso to express their many levels of character through a thoughtful and caring hand.",
+    "Giữa cuộc sống đầy bộn bề lo toan, bạn vội vã hòa vào dòng người tấp nập, cuốn mình vào công việc bận rộn để rồi bạn chợt nhật ra đã bao lâu rồi bạn chưa dành thời gian cho bản thân nghỉ ngơi, thưởng thức một ly cà phê và lắng nghe âm nhạc, âm thanh của cuộc sống. Đến với cà phê chúng tôi bạn sẽ được hòa mình với thiên nhiên, chìm đắm trong tiếng nhạc du dương, tiếng chim lảnh lót và tiếng nước chảy róc rách.",
   comment:
-    "Cmspresso is a concept that we wish to pass for-ward. Cmspresso means a healthy and positive outlook for the adopters of this great attitude.",
+    "Với mục tiêu Luôn đặt chữ tín lên hàng đầu và hướng tới quan hệ khách hàng dài lâu. Chúng tôi cam kết sẽ mang lại cho bạn những trải nghiệm tuyệt vời khi mua hàng",
 
   images: [
     {
@@ -18,9 +18,9 @@ const infoUsData = {
 };
 
 const ourPromiseData = {
-  title: "our promise",
+  title: "cam kết của chúng tôi ",
   text:
-    "Over time, we saw others trying to cut corners, and we vowed to work harder to make food that you can trust. As GMO’s, MSG, fillers, sweeteners and irradiation became increasingly common elsewhere, we deepened our commitment to our customers and to the planet. By 2007, we achieved our 100% Organic Certification, and in the following months we increased our line to include Certified Fair Trade, Kosher, Vegan, and Gluten Free products. In 2012, we developed a line of EcoShakers, a spice container that is 100% recyclable.",
+    "Với mục tiêu Luôn đặt chữ tín lên hàng đầu và hướng tới quan hệ khách hàng dài lâu. Chúng tôi cam kết sử dụng 100% hạt cà phê nguyên chất, không pha lẫn những tạp chất khác và mang lại cho bạn những trải nghiệm tuyệt vời khi mua hàng. Chúng tôi sẽ làm việc chăm chỉ hơn để tao ra thêm nhiều thức uống được mọi người tin tưởng.",
   image: {
     src: "/latest-2.png",
     alt: "our promse",
@@ -34,13 +34,15 @@ const ourMissionData = {
   },
   content: [
     {
-      title: "our mission",
+      title: "Nhiệm vụ của chúng tôi",
       text:
-        "We believe in sharing quality organic products that you can enjoy with confidence.",
+        "Chúng tôi tin tưởng chia sẻ những sãn phẩm hữu cơ chất lượng mà bạn có thể thoải mái thưởng thức.",
       comment:
-        "We strive to nourish your body and respect the environment by certifying each of our products organic and gluten free, using pure ingredients that are ethically sourced from around the world and embracing sustainable, eco-friendly practices, always.",
+        "Chúng tôi cố gắng nuôi dưỡng cơ thể của bạn và tôn trọng môi trường bằng cách chứng nhận mỗi sản phẩm của chúng tôi là hữu cơ và không chứa gluten, sử dụng các thành phần nguyên chất có nguồn gốc từ khắp nơi trên thế giới và luôn áp dụng các phương pháp bền vững, thân thiện với môi trường",
+      subText:
+        "Trong tất cả những việc chúng tôi làm, chúng tôi nhắm đến sự tốt nhất.",
       subComment:
-        "Whether you are dedicated to a wholesome, organic lifestyle, are dabbling in a gluten free diet or enjoy using the freshest and most expansive variety of spices in your culinary creations, we want you to empower your creativity and wellness with qualityorganic ingredients and help you feel good about your food choices.",
+        "Cho dù bạn dành riêng cho lối sống hữu cơ, lành mạnh, đang áp dụng chế độ ăn kiêng không chứa gluten hay thích sử dụng nhiều loại gia vị tươi ngon nhất và phong phú nhất trong các sáng tạo ẩm thực của mình, chúng tôi muốn bạn trao sự sáng tạo và sức khỏe của mình bằng các nguyên liệu hữu cơ chất lượng và giúp bạn cảm thấy hài lòng về lựa chọn của mình.",
     },
   ],
 };
@@ -57,11 +59,11 @@ const ourMethodsData = {
     src: "/ourMethods.png",
     alt: "",
   },
-  title: "our methods",
+  title: "các phương pháp của chúng tôi",
   text:
-    "We import 100% organic spices using Fair Trade options whenever available. All imported spices are required to go through a sterilization process before being sold in the United States. Most spice companies sterilize using synthetic chemicals or radiation. Spicely Organics uses a process called steam sterilization, which sterilizes food products without adding any chemicals or hazardous materials.",
+    "Cách pha cafe phin xuất hiện từ thế kỷ 19 người và là phương pháp phổ biến nhất hiện nay tại Việt Nam. Phương pháp này dựa trên nguyên tắc chung là nước nóng đi qua cà phê bột tạo ra nước cà phê. Bên cạnh đó chất lượng cà phê cũng vô cùng quan trọng. Chúng tôi chọn cà phê nguyên chất đảm bảo sức khoẻ và cho hương vị tuyệt hảo nhất.",
   comment:
-    "Worldwide, we have over 50 passionate employees and counting. In 2012, we opened our first ever Spicely Boutique, located in downtown San Francisco.",
+    "Cà phê pha máy được pha trực tiếp từ loại máy pha cà phê espresso. Sở hữu thiết kế nhỏ gọn và đẹp mắt, không những thế còn được cài đặt tự động về áp suất nồi hơi, nhiệt độ nước, hàm lượng cà phê…nhờ đó mà cà phê sau khi được pha luôn đảm bảo về mặt chất lượng.",
 };
 
 export {

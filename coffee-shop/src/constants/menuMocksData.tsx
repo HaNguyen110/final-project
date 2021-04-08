@@ -1,34 +1,46 @@
 export const menuData = [
   {
     id: "0",
-    category: "coffee",
+    category: "Cà phê",
     image: {
       src: "/menu-1.png",
       alt: "image category 1",
     },
     items: [
       {
-        name: "coffee ice",
-        price: "$29.00",
+        name: "Cà phê đen phin ( nóng / đá )",
+        price: "15,000 Đ",
         description:
           "Our selection of coffee beans have been rigorously tested with every different type of coffee machine to make.",
       },
 
       {
-        name: "coffee ice milk",
-        price: "$33.00",
+        name: "Cà phê sữa phin ( nóng / đá )",
+        price: "20,000 Đ",
         description:
           "Coffee ice milk is the process that slowly and gradually releases the purest of essence.",
       },
       {
-        name: "hot coffee",
-        price: "$29.00",
+        name: "Cà phê đen pha máy ( nóng / đá )",
+        price: "15,000 Đ",
+        description:
+          "Coffee ice milk is the process that slowly and gradually releases the purest of essence.",
+      },
+      {
+        name: "Cà phê sữa pha máy ( nóng / đá )",
+        price: "20,000 Đ",
+        description:
+          "Coffee ice milk is the process that slowly and gradually releases the purest of essence.",
+      },
+      {
+        name: "Cà phê đen sài gòn",
+        price: "25,000 Đ",
         description:
           "Grown traditionally, harvested naturally and roasted lovingly, they're the star of every cup.",
       },
       {
-        name: "coffee chocolate",
-        price: "$29.00",
+        name: "Cà phê sữa sài gòn",
+        price: "30,000 Đ",
         description:
           "Some start life in Africa, others in South America, but all end up close to our heart.",
       },
@@ -36,33 +48,33 @@ export const menuData = [
   },
   {
     id: "2",
-    category: "milk",
+    category: "Nước ép",
     image: {
-      src: "/menu-2.png",
-      alt: "image category 2",
+      src: "/menu-4.png",
+      alt: "image category 4",
     },
     items: [
       {
-        name: "fresh milk",
-        price: "$29.00",
+        name: "Thơm, dâu tây, cà chua, cà rốt, cóc, chanh dây",
+        price: "20,000 Đ",
         description:
           "Add Kahlua, crème de Menthe, crème de cacao, milk and ice to a blender and blend on low speed until smooth.",
       },
       {
-        name: "milk ice",
-        price: "$33.00",
+        name: "Cà chua + cà rốt",
+        price: "20,000 Đ",
         description:
-          "There should be some ice crystals in the glass and the drink will be light and frothy.",
+          "Get the mixers out and shape your Saturday night party like an Aspri Spirits night!",
       },
       {
-        name: "mudslide recipe milk",
-        price: "$29.00",
+        name: "Nước cam",
+        price: "30,000 Đ",
         description:
-          "White creme de cacao and milk, and served blended in a chilled highball glass topped with whipped cream and a small cookie",
+          "Get the mixers out and shape your Saturday night party like an Aspri Spirits night!",
       },
       {
-        name: "sarati lassi milk",
-        price: "$39.00",
+        name: "nước chanh ( nóng / đá )",
+        price: "20,000 Đ",
         description:
           "Get the mixers out and shape your Saturday night party like an Aspri Spirits night!",
       },
@@ -70,33 +82,88 @@ export const menuData = [
   },
   {
     id: "3",
-    category: "tea",
+    category: "Trà",
     image: {
-      src: "/menu-4.png",
-      alt: "image category 4",
+      src: "/menu-2.png",
+      alt: "image category 2",
     },
     items: [
       {
-        name: "tiple lemon drop",
-        price: "$39.00",
+        name: "Trà gừng",
+        price: "20,000 Đ",
         description:
           "Combine the Lipton Ice Tea Lemon and the lemonade in a pitcher.",
       },
       {
-        name: "citrus iced tea punch",
-        price: "$45.00",
+        name: "Trà lipton",
+        price: "20,000 Đ",
         description:
           "Combine Lipton Ice Tea Lemon with the orange juice in a large pitcher; stir in the sliced fruit.",
       },
       {
-        name: "mint tea juleps",
-        price: "$40.00",
+        name: "Trà lipton sữa",
+        price: "25,000 Đ",
+        description:
+          "Combine Lipton Ice Tea Lemon with the orange juice in a large pitcher; stir in the sliced fruit.",
+      },
+      {
+        name: "Trà chanh",
+        price: "18,000 Đ",
         description:
           "Thoroughly crush the mint with a wooden spoon on the side of the pitcher.",
       },
       {
-        name: "pina tea-la-da",
-        price: "$39.00",
+        name: "Trà đào",
+        price: "30,000 Đ",
+        description: "Process all ingredients in a blender until smooth.",
+      },
+    ],
+  },
+  {
+    id: "4",
+    category: "Các loại thức uống khác",
+    image: {
+      src: "/menu-2.png",
+      alt: "image category 2",
+    },
+    items: [
+      {
+        name: "Cacao ( nóng / đá )",
+        price: "20,000 Đ",
+        description:
+          "Combine the Lipton Ice Tea Lemon and the lemonade in a pitcher.",
+      },
+      {
+        name: "Sữa chua đá",
+        price: "20,000 Đ",
+        description:
+          "Combine Lipton Ice Tea Lemon with the orange juice in a large pitcher; stir in the sliced fruit.",
+      },
+      {
+        name: "Sữa chua dâu tây",
+        price: "25,000 Đ",
+        description:
+          "Combine Lipton Ice Tea Lemon with the orange juice in a large pitcher; stir in the sliced fruit.",
+      },
+      {
+        name: "Coca, pepsi, bò húc",
+        price: "15,000 Đ",
+        description:
+          "Thoroughly crush the mint with a wooden spoon on the side of the pitcher.",
+      },
+      {
+        name: "Nutri, revive",
+        price: "18,000 Đ",
+        description: "Process all ingredients in a blender until smooth.",
+      },
+      {
+        name: "Aquafina",
+        price: "10,000 Đ",
+        description: "Process all ingredients in a blender until smooth.",
+      },
+      {
+        name: "Nước khoáng ( lạt / ngọt )",
+        price: "12,000 Đ",
         description: "Process all ingredients in a blender until smooth.",
       },
     ],
