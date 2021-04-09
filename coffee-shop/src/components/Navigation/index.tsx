@@ -36,10 +36,11 @@ const Navigation = ({ menu = [], classNames = "" }: Props) => {
           <ul className="navbar-nav">
             {menu.map((item, index) => {
               return (
-                <li className="nav-item active" key={`${index}-${item.label}`}>
-                  <Link href={item.href}>
-                    <a className={styles.linkItem}>{item.label}</a>
-                  </Link>
+                <li
+                  className={`${styles.navItem} active`}
+                  key={`${index}-${item.label}`}
+                >
+                  <Link href={item.href}>{item.label}</Link>
                 </li>
               );
             })}

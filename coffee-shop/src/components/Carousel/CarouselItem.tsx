@@ -26,8 +26,8 @@ const CarouselItem = ({ item }: Props) => {
           title={item.title}
           text={item.text}
           classNames={{
-            title: "text-white text-center",
-            text: "text-white text-center",
+            title: "text-white text-center d-none d-md-block",
+            text: "text-white text-center d-none d-lg-block",
           }}
         />
       </div>
