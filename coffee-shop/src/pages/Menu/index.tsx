@@ -12,16 +12,15 @@ const Menu = () => {
   return (
     <>
       <Hero src="/bgMenu.jpg" title="menu" />
-      <div className="">
-        <div className="container">
-          {menuData.map((item) => {
-            return (
-              <div className={`row `}>
-                <MenuCategory menuData={item} key={item.id} />
-              </div>
-            );
-          })}
-        </div>
+
+      <div className="container">
+        {menuData.map((item) => {
+          return (
+            <div className={`${styles.categories} row`}>
+              <MenuCategory menuData={item} key={item.id} />
+            </div>
+          );
+        })}
       </div>
 
       {/* <Footer /> */}

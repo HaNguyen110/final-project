@@ -17,7 +17,6 @@ type Props = {
 
 const Flickity = ({ flickityData }: Props) => {
   const { image } = flickityData;
-  console.log("flickityData", flickityData);
 
   return (
     <Image
