@@ -1,0 +1,7 @@
+.categories:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.categories {
+  display: flex;
+}
