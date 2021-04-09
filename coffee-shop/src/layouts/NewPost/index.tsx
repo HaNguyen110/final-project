@@ -30,9 +30,9 @@ const NewPost = ({ newsEventsData }: Props) => {
   return (
     <div className={styles.newPost}>
       <div className="container">
-        <Link href={`/news/[id]`} as={`/news/${id}`}>
-          <div className={`${styles.post} row`}>
-            <div className="col-md-6">
+        <div className={`${styles.post} row`}>
+          <div className="col-md-6">
+            <Link href={`/news/[id]`} as={`/news/${id}`}>
               <Image
                 className=""
                 src={image.src}
@@ -41,17 +41,17 @@ const NewPost = ({ newsEventsData }: Props) => {
                 height={322}
                 objectFit="cover"
               />
-            </div>
-            <div className="col-md-6">
-              <InfoNews
-                date={date}
-                title={title}
-                text={description}
-                note={note}
-              />
-            </div>
+            </Link>
           </div>
-        </Link>
+          <div className="col-md-6">
+            <InfoNews
+              date={date}
+              title={title}
+              text={description}
+              note={note}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

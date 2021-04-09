@@ -1,11 +1,14 @@
 import React from "react";
-import CarouselItem, { Item } from "./CarouselItem";
+
+import CarouselItem from "./CarouselItem";
+
+import type { Item } from "../../types/CommonTypes";
 
 type Props = {
   data: Item[];
 };
 
-const Carousel = ({ data = [] }: Props) => {
+const Carousel = ({ data }: Props) => {
   return (
     <div
       id="carouselExampleIndicators"
@@ -22,7 +25,7 @@ const Carousel = ({ data = [] }: Props) => {
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
       <div className="carousel-inner" role="listbox">
-        {data && data.map((item: Item) => <CarouselItem item={item} />)}
+        {data && data.map((item) => <CarouselItem item={item} />)}
       </div>
       <a
         className="carousel-control-prev"

@@ -19,8 +19,8 @@ const NewsDetailPost = ({ detail }) => {
   const { title = "" } = detail || {};
 
   return (
-    <div>
-      <Hero src="/bgNew.jpg" title="News & Events" />
+    <>
+      <Hero src="/bgNew.jpg" title="tin tức và sự kiện" />
       <div className={styles.detailImg}>
         <Image
           className=""
@@ -32,16 +32,14 @@ const NewsDetailPost = ({ detail }) => {
         />
       </div>
 
-      <div>
-        <InfoNewsDetail
-          title={title}
-          date={date}
-          note={note}
-          quote={quote}
-          description={description}
-        />
-      </div>
-    </div>
+      <InfoNewsDetail
+        title={title}
+        date={date}
+        note={note}
+        quote={quote}
+        description={description}
+      />
+    </>
   );
 };
 

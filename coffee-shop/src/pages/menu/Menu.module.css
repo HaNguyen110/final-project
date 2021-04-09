@@ -1,7 +1,8 @@
-.categories:nth-child(2n) {
-  flex-direction: row-reverse;
-}
-
 .categories {
   display: flex;
+  padding-top: 50px;
+}
+
+.categories:nth-child(2n) {
+  flex-direction: row-reverse;
 }

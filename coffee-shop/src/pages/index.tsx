@@ -17,9 +17,7 @@ import {
   latestData,
   recipeData,
   serverData,
-  logoData,
   bulletproofData,
-  footerData,
 } from "../constants/index";
 
 type Props = {};
@@ -41,7 +39,7 @@ export default function Home({}: Props) {
 
       <Bulletproof bulletproofData={bulletproofData} />
 
-      {/* <Footer footerData={footerData} /> */}
+      <Footer />
     </div>
   );
 }

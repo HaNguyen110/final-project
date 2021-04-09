@@ -29,6 +29,7 @@ type Props = {
 
 const MenuCategory = ({ menuData }: Props) => {
   const { category, image, items } = menuData;
+
   return (
     <>
       <div className="col-md-6">

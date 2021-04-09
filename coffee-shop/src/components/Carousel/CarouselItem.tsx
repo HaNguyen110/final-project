@@ -6,13 +6,13 @@ import Description from "../Description";
 
 import styles from "./Carousel.module.css";
 
-export interface Item {
+export type Item = {
   src: string;
   alt: string;
   isActive: boolean;
-  title: string;
-  text: string;
-}
+  title?: string;
+  text?: string;
+};
 
 type Props = {
   item: Item;

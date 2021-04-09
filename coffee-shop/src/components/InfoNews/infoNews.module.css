@@ -7,7 +7,6 @@
 
 .meta {
   position: relative;
-  padding-top: 35px;
   color: #828282;
   font-size: 15px;
   line-height: 22px;
@@ -16,7 +15,7 @@
 .meta:after {
   content: "";
   position: absolute;
-  top: 30px;
+  top: 20px;
   left: 0;
   height: 2px;
   width: 82px;

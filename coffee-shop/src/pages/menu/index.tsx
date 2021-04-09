@@ -13,7 +13,7 @@ const Menu = () => {
     <>
       <Hero src="/bgMenu.jpg" title="menu" />
 
-      <div className="container">
+      <div className={`${styles.MenuCategories} container`}>
         {menuData.map((item) => {
           return (
             <div className={`${styles.categories} row`}>
@@ -23,7 +23,7 @@ const Menu = () => {
         })}
       </div>
 
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 };

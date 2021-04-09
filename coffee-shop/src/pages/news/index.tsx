@@ -14,10 +14,11 @@ const News = ({ data }) => {
     return (
       <div>
         <SEO title="News & Events page" description="This is New page" />
-        <Hero src="/bgNew.jpg" title="News & Events" />
+        <Hero src="/bgNew.jpg" title="Tin tức và sự kiện" />
         {data.map((item) => {
           return <NewPost newsEventsData={item} key={item.id} />;
         })}
+        <Footer />
       </div>
     );
   }
