@@ -1,0 +1,3 @@
+.rowReverse:nth-child(2) {
+  flex-direction: row-reverse;
+}

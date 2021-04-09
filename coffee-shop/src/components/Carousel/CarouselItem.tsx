@@ -33,11 +33,11 @@ const CarouselItem = ({ item }: Props) => {
       </div>
       <Image
         src={item.src}
-        className="d-block w-100"
         alt={item.alt}
-        width={1370}
-        height={600}
         objectFit="cover"
+        layout="responsive"
+        width={1370}
+        height={500}
       />
     </div>
   );

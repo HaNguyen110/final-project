@@ -60,14 +60,14 @@ export const serverData = {
 };
 
 export const latestData = {
-  title: "latest update",
+  title: "cập nhật mới nhất",
   src: "/coffee.jpg",
   alt: "coffee",
   items: [
     {
-      subTitle: "Giảm 10% cho hóa đơn trên 150K",
+      subTitle: "Chương trình ca nhạc acoustic hằng đêm.",
       description:
-        "In specialty coffee culture an ability to properly brew coffee is summing it all up. In one cup of coffee we bring together efforts of all of those who worked o...",
+        "Từ 7:00pm mỗi ngày sẽ có chương trình ca nhạc acoustic hằng đêm. Chương trình hoàn toàn miễn phí, không tính phí phụ thu.",
       src: "/latest-1.png",
       alt: "latest 1",
     },
@@ -124,48 +124,46 @@ export const bulletproofData = {
   ],
 };
 
-export const footerData = [
-  {
-    title: "about us",
-    items: [
-      {
-        text:
-          "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.",
-      },
-      {
-        text: "hello@mtheme.org",
-      },
-      {
-        text: "+(84)123456789",
-      },
-      {
-        text: "198 West 21th Street, Suite 721 New York NY 10010",
-      },
-    ],
-  },
-  {
-    title: "for business",
-    items: [
-      {
-        text: "Office Coffee",
-      },
-      {
-        text: "Food Service",
-      },
-      {
-        text: "Affiliate Program",
-      },
-    ],
-  },
-  {
-    title: "follow us",
-    items: [
-      {
-        text: "Follow Origin on the following social network sites.",
-      },
-    ],
-  },
-];
+// export const footerData = [
+//   {
+//     title: "about us",
+//     items: [
+//       {
+//         text:
+//           "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.",
+//       },
+//       {
+//         text: "hello@mtheme.org",
+//       },
+//       {
+//         text: "+(84)123456789",
+//       },
+//       {
+//         text: "198 West 21th Street, Suite 721 New York NY 10010",
+//       },
+//     ],
+//   },
+//   {
+//     title: "for business",
+//     items: [
+//       {
+//         text: "Office Coffee",
+//       },
+//       {
+//         text: "Food Service",
+//       },
+//       {
+//         text: "Affiliate Program",
+//       },
+//     ],
+//   },
+//   {
+//     title: "follow us",
+//     items: {
+//       text: "Follow Origin on the following social network sites.",
+//     },
+//   },
+// ];
 
 export const newsEventsData = [
   {
@@ -174,10 +172,10 @@ export const newsEventsData = [
       src: "/news-1.jpeg",
       alt: "news image 1",
     },
-    date: "05 / may",
-    title: "CONSECTETUR ADIPISCING ELIT",
+    date: "27 / april",
+    title: "Chương trình ca nhạc acoustic hằng đêm.",
     description:
-      "Sed ut perspiciatis unde omnis iste natus error sit sed quia consequuntur magni dolores eos nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque",
+      "Từ 7:00pm mỗi ngày, sẽ có chương trình ca nhạc acoustic hằng đêm. Chương trình hoàn toàn miễn phí, không tính phí phụ thu. Do không thu phí, chương trình sẽ sắp xếp chỗ ngồi và phục vụ cho khách hàng đến trước.",
     note: "Post by mTheme / Coffee / 7 comments",
   },
   {
@@ -187,9 +185,9 @@ export const newsEventsData = [
       alt: "news image 2",
     },
     date: "05 / may",
-    title: "CONSECTETUR ADIPISCING ELIT",
+    title: "Kỷ niệm ngày lễ 30/4 và 1/5",
     description:
-      "Sed ut perspiciatis unde omnis iste natus error sit sed quia consequuntur magni dolores eos nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque",
+      "Từ ngày 27/4 đến ngày 1/5/2021 khách hàng đến mua trực tiếp ở của hàng sẽ nhận được được ưu đãi sau: hóa đơn trên 100K sẽ được tặng một ly sứ  ",
     note: "Post by mTheme / Coffee / 7 comments",
   },
   {

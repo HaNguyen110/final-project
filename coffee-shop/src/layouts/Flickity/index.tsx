@@ -26,6 +26,7 @@ const Flickity = ({ flickityData }: Props) => {
       width={1370}
       height={500}
       objectFit="cover"
+      layout="responsive"
     />
   );
 };

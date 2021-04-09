@@ -5,8 +5,8 @@ import Link from "next/link";
 import styles from "./FooterItem.module.css";
 
 type Props = {
-  title: string;
-  text: string;
+  title?: string;
+  text?: string;
 };
 
 const FooterItem = ({ title = "", text = "" }: Props) => {

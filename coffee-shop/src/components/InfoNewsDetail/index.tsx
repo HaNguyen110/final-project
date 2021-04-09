@@ -29,9 +29,7 @@ const InfoNewDetail = ({
           <div className="col-md-9">
             <InfoNews title={title} note={note} />
             <p>{description}</p>
-            <p>{description}</p>
             <blockquote className={styles.infoNewsQuote}>{quote}</blockquote>
-            <p>{description}</p>
           </div>
         </div>
       </div>

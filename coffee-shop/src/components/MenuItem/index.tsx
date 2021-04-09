@@ -19,8 +19,7 @@ const MenuItem = ({
 }: Props) => {
   return (
     <div className={`${styles.menuItem} row`}>
-      <div className="col-md-2"></div>
-      <div className={`${styles.menuContent} col-md-10`}>
+      <div className={styles.menuContent}>
         <h5 className={styles.menuTitle}>
           <span>{name}</span>
           <span className={styles.menuPrice}>{price}</span>

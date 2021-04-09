@@ -25,7 +25,7 @@ const About = ({}: Props) => {
     <div>
       <SEO title="About page" description="This is About page" />
 
-      <Hero src="/bgAbout.jpg" title="about us" />
+      <Hero src="/bgAbout.jpg" title="Về chúng tôi" />
 
       <InfoUs infoUsData={infoUsData} />
 
@@ -37,7 +37,7 @@ const About = ({}: Props) => {
 
       <OurMethods ourMethodsData={ourMethodsData} />
 
-      {/* <Footer footerData={footerData} /> */}
+      <Footer />
     </div>
   );
 };

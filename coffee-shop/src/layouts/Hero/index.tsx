@@ -33,27 +33,27 @@ const Hero = ({ isActiveCarousel, src = "", title = "" }: Props) => {
           <Navigation menu={navigationData} />
         </div>
       </div>
-      <div>
+      <>
         {isActiveCarousel ? (
           <Carousel data={carouselData} />
         ) : (
-          <div>
+          <>
             <div>
               <Image
                 className=""
                 src={src}
-                alt="background "
-                width={1370}
-                height={400}
-                objectFit="cover"
+                alt="background"
+                width={1920}
+                height={478}
+                layout="responsive"
               />
             </div>
-            <div className={styles.title}>
+            <div className={`${styles.title} container`}>
               <Description title={title} classNames={{ title: "text-white" }} />
             </div>
-          </div>
+          </>
         )}
-      </div>
+      </>
     </div>
   );
 };
