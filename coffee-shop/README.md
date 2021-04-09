@@ -76,6 +76,7 @@ npm run dev
 
 ```
 cd coffee-shop
-npx json-server --watch src/api/db.json --port 3004
+npm i json-server
 json-server --watch .src/api/db.json
+npx json-server --watch src/api/db.json --port 3004
 ```
