@@ -71,3 +71,11 @@ npm run dev
 ```
 
 3. Let’s check to see if it’s working. Open http://localhost:3000 from browser.
+
+## Run Server
+
+```
+cd coffee-shop
+npx json-server --watch src/api/db.json --port 3004
+json-server --watch .src/api/db.json
+```
