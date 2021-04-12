@@ -1,12 +1,11 @@
-import React from "react";
 import styles from "./Post.module.css";
 
 type Props = {
-  title?: string;
-  text?: string;
+  title: string;
+  text: string;
 };
 
-const Post = ({ title = "", text = "" }: Props) => {
+const Post = ({ title, text }: Props) => {
   return (
     <>
       <div className={styles.title}>{title}</div>

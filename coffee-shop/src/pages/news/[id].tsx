@@ -1,5 +1,3 @@
-import React from "react";
-
 import Image from "next/image";
 
 import styles from "./News.module.css";
@@ -8,13 +6,13 @@ import InfoNewsDetail from "../../components/InfoNewsDetail";
 import Hero from "../../layouts/Hero";
 import Footer from "../../layouts/Footer";
 
-type Props = {
-  src?: string;
-  alt?: string;
-};
+// type Props = {
+//   src?: string;
+//   alt?: string;
+// };
 
 const NewsDetailPost = ({ detail }) => {
-  const { image, tittle, description, date, note, quote } = detail || {};
+  const { image, description, date, note, quote } = detail || {};
   const { src = "", alt = "" } = image || {};
   const { title = "" } = detail || {};
 

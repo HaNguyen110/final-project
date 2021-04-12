@@ -1,5 +1,3 @@
-import React from "react";
-
 import Image from "next/image";
 
 import styles from "./MenuCategory.module.css";
@@ -28,7 +26,7 @@ type Props = {
 };
 
 const MenuCategory = ({ menuData }: Props) => {
-  const { category, image, items } = menuData;
+  const { category, image, items } = menuData || {};
 
   return (
     <>

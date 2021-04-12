@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./Description.module.css";
 type ClassNames = {
   title?: string;

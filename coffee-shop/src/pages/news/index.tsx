@@ -1,5 +1,3 @@
-import React from "react";
-
 import SEO from "../../components/SEO";
 
 import Footer from "../../layouts/Footer";
@@ -27,7 +25,7 @@ const News = ({ data }) => {
 
 export default News;
 
-export async function getStaticProps(context) {
+export async function getStaticProps() {
   const res = await fetch(`http://localhost:3004/news-events`);
   const data = await res.json();
 

@@ -5,3 +5,8 @@ export type Item = {
   title?: string;
   text?: string;
 };
+
+export type Image = {
+  src: string;
+  alt: string;
+};

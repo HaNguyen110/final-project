@@ -1,5 +1,3 @@
-import React from "react";
-
 import styles from "./InfoNewsDetail.module.css";
 
 import InfoNews from "../InfoNews";

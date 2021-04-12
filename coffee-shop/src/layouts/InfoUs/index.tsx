@@ -1,5 +1,3 @@
-import React from "react";
-
 import Image from "next/image";
 
 import styles from "./InfoUs.module.css";
@@ -16,17 +14,15 @@ type infoUsData = {
   title: string;
   text: string;
   comment: string;
-  images: Array<image>;
+  images: image[];
 };
 
 type Props = {
-  infoUsData?: infoUsData;
+  infoUsData: infoUsData;
 };
 
 const InfoUs = ({ infoUsData }: Props) => {
-  const { title, text, comment, images } = infoUsData;
-  const infoBg = images[0];
-  const infoImg = images[1];
+  const { title, text, comment, images } = infoUsData || {};
   {
     return (
       <div className={styles.info}>
@@ -37,8 +33,8 @@ const InfoUs = ({ infoUsData }: Props) => {
             </div>
             <div className={`${styles.infoImg} col-md-6`}>
               <Image
-                src={infoImg.src}
-                alt={infoImg.alt}
+                src={images.src}
+                alt={images.alt}
                 height={400}
                 width={340}
                 objectFit="cover"
@@ -48,8 +44,8 @@ const InfoUs = ({ infoUsData }: Props) => {
         </div>
         <div className={styles.imgBg}>
           <Image
-            src={infoBg.src}
-            alt={infoBg.alt}
+            src={images.src}
+            alt={images.alt}
             height={500}
             width={1370}
             objectFit="cover"

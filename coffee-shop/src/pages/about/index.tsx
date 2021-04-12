@@ -1,5 +1,3 @@
-import React from "react";
-
 import SEO from "../../components/SEO";
 
 import Hero from "../../layouts/Hero";
@@ -10,36 +8,50 @@ import OurPromise from "../../layouts/ourPromise";
 import Flickity from "../../layouts/Flickity";
 import OurMethods from "../../layouts/OurMethods";
 
-import {
-  infoUsData,
-  ourPromiseData,
-  ourMissionData,
-  flickityData,
-  ourMethodsData,
-} from "../../constants/aboutMocksData";
+import type { AboutType } from "../../types/AboutTypes";
 
-type Props = {};
+type Props = {
+  data: AboutType;
+};
 
-const About = ({}: Props) => {
-  return (
-    <div>
-      <SEO title="About page" description="This is About page" />
+const About = ({ data }: Props) => {
+  console.log("data", data);
+  if (data) {
+    return (
+      <div>
+        <SEO title="About page" description="This is About page" />
 
-      <Hero src="/bgAbout.jpg" title="Về chúng tôi" />
+        <Hero src="/bgAbout.jpg" title="Về chúng tôi" />
+        {data.map((item) => {
+          return <InfoUs infoUsData={item} />;
+        })}
 
-      <InfoUs infoUsData={infoUsData} />
+        <InfoUs infoUsData={data[0]} />
 
-      <OurMission ourMissionData={ourMissionData} />
+        <OurMission ourMissionData={data[1]} />
 
-      <OurPromise ourPromiseData={ourPromiseData} />
+        <OurPromise ourPromiseData={data[2]} />
 
-      <Flickity flickityData={flickityData} />
+        <Flickity flickityData={data[3]} />
 
-      <OurMethods ourMethodsData={ourMethodsData} />
+        <OurMethods ourMethodsData={data[4]} />
 
-      <Footer />
-    </div>
-  );
+        <Footer />
+      </div>
+    );
+  }
+  return null;
 };
 
 export default About;
+
+export async function getStaticProps() {
+  const res = await fetch(`http://localhost:3004/about`);
+  const data = await res.json();
+
+  return {
+    props: {
+      data,
+    },
+  };
+}

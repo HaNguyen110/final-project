@@ -1,10 +1,6 @@
-import React from "react";
-
 import Image from "next/image";
 
 import styles from "./Hero.module.css";
-
-import { carouselData, navigationData } from "../../constants";
 
 import Carousel from "../../components/Carousel";
 import Logo from "../../components/Logo";
@@ -17,7 +13,13 @@ type Props = {
   title?: string;
 };
 
-const Hero = ({ isActiveCarousel, src = "", title = "" }: Props) => {
+const Hero = ({
+  isActiveCarousel,
+  src = "",
+  title = "",
+  carouselData,
+  navigationData,
+}: Props) => {
   return (
     <div className={styles.hero}>
       <div className={styles.header}>

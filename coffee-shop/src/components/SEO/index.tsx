@@ -1,13 +1,12 @@
-import React from "react";
 import Head from "next/head";
 
 type Props = {
-  description?: string;
-  title?: string;
-  siteTitle?: string;
+  description: string;
+  title: string;
+  siteTitle: string;
 };
 
-const SEO = ({ description = "", title = "", siteTitle = "" }: Props) => {
+const SEO = ({ description, title, siteTitle }: Props) => {
   return (
     <Head>
       <title>{`${title} | ${siteTitle}`}</title>

@@ -1,4 +1,3 @@
-import react from "react";
 import Link from "next/link";
 
 import Image from "next/image";
@@ -25,7 +24,7 @@ type Props = {
 };
 
 const NewPost = ({ newsEventsData }: Props) => {
-  const { id, image, date, title, description, note } = newsEventsData;
+  const { id, image, date, title, description, note } = newsEventsData || {};
 
   return (
     <div className={styles.newPost}>

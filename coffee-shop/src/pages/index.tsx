@@ -1,5 +1,3 @@
-import React from "react";
-
 import styles from "../styles/Home.module.css";
 
 import SEO from "../components/SEO";
@@ -12,34 +10,29 @@ import Latest from "../layouts/Latest";
 import Bulletproof from "../layouts/Bulletproof";
 import Footer from "../layouts/Footer";
 
-import { infoUsData } from "../constants/aboutMocksData";
-import {
-  latestData,
-  recipeData,
-  serverData,
-  bulletproofData,
-} from "../constants/index";
-
 type Props = {};
 
-export default function Home({}: Props) {
-  return (
-    <div className={styles.container}>
-      <SEO title="Home page" description="This is Home page" />
+export default function Home(data: Props) {
+  if (data) {
+    return (
+      <div className={styles.container}>
+        <SEO title="Home page" description="This is Home page" />
 
-      <Hero isActiveCarousel />
+        <Hero isActiveCarousel navigationData />
 
-      <InfoUs infoUsData={infoUsData} />
+        <InfoUs infoUsData={infoUsData} />
 
-      <Service serverData={serverData} />
+        <Service serverData={serverData} />
 
-      <Latest latestData={latestData} />
+        <Latest latestData={latestData} />
 
-      <Recipe recipeData={recipeData} />
+        <Recipe recipeData={recipeData} />
 
-      <Bulletproof bulletproofData={bulletproofData} />
+        <Bulletproof bulletproofData={bulletproofData} />
 
-      <Footer />
-    </div>
-  );
+        <Footer />
+      </div>
+    );
+  }
+  return null;
 }
