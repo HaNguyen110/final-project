@@ -2,7 +2,7 @@ import styles from "./Post.module.css";
 
 type Props = {
   title: string;
-  text: string;
+  text?: string;
 };
 
 const Post = ({ title, text }: Props) => {

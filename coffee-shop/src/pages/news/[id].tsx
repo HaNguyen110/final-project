@@ -3,6 +3,7 @@ import Image from "next/image";
 import styles from "./News.module.css";
 
 import InfoNewsDetail from "../../components/InfoNewsDetail";
+
 import Hero from "../../layouts/Hero";
 import Footer from "../../layouts/Footer";
 
@@ -18,7 +19,7 @@ const NewsDetailPost = ({ detail }) => {
 
   return (
     <>
-      <Hero src="/bgNew.jpg" title="tin tức và sự kiện" />
+      {/* <Hero src="/bgNew.jpg" title="tin tức và sự kiện" /> */}
       <div className={styles.detailImg}>
         <Image
           className=""

@@ -7,19 +7,27 @@ import Logo from "../../components/Logo";
 import Navigation from "../../components/Navigation";
 import Description from "../../components/Description";
 
+type heroBg = {
+  src: string;
+  title: string;
+};
+
+type heroData = {
+  heroBg: heroBg;
+};
+
 type Props = {
+  heroData: heroData;
   isActiveCarousel?: boolean;
-  src?: string;
-  title?: string;
 };
 
 const Hero = ({
   isActiveCarousel,
-  src = "",
-  title = "",
+  heroData,
   carouselData,
   navigationData,
 }: Props) => {
+  const { src, title } = heroData;
   return (
     <div className={styles.hero}>
       <div className={styles.header}>
@@ -42,7 +50,6 @@ const Hero = ({
           <>
             <div>
               <Image
-                className=""
                 src={src}
                 alt="background"
                 width={1920}

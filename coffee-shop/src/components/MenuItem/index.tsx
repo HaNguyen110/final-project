@@ -1,20 +1,12 @@
 import styles from "./MenuItem.module.css";
 
 type Props = {
-  src?: string;
-  alt?: string;
-  name?: string;
-  price?: string;
-  description?: string;
+  name: string;
+  price: string;
+  description: string;
 };
 
-const MenuItem = ({
-  src = "",
-  alt = "",
-  name = "",
-  price = "",
-  description = "",
-}: Props) => {
+const MenuItem = ({ name, price, description }: Props) => {
   return (
     <div className={`${styles.menuItem} row`}>
       <div className={styles.menuContent}>

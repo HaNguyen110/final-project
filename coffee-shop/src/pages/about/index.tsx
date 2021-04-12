@@ -8,10 +8,10 @@ import OurPromise from "../../layouts/ourPromise";
 import Flickity from "../../layouts/Flickity";
 import OurMethods from "../../layouts/OurMethods";
 
-import type { AboutType } from "../../types/AboutTypes";
+import type { Body } from "../../types/AboutTypes";
 
 type Props = {
-  data: AboutType;
+  data: Body;
 };
 
 const About = ({ data }: Props) => {
@@ -21,22 +21,19 @@ const About = ({ data }: Props) => {
       <div>
         <SEO title="About page" description="This is About page" />
 
-        <Hero src="/bgAbout.jpg" title="Về chúng tôi" />
-        {data.map((item) => {
-          return <InfoUs infoUsData={item} />;
-        })}
+        <Hero heroData={data[0]} />
 
-        <InfoUs infoUsData={data[0]} />
+        <InfoUs infoUsData={data[1]} />
 
-        <OurMission ourMissionData={data[1]} />
+        <OurMission ourMissionData={data[2]} />
 
-        <OurPromise ourPromiseData={data[2]} />
+        <OurPromise ourPromiseData={data[3]} />
 
-        <Flickity flickityData={data[3]} />
+        <Flickity flickityData={data[4]} />
 
-        <OurMethods ourMethodsData={data[4]} />
+        <OurMethods ourMethodsData={data[5]} />
 
-        <Footer />
+        <Footer footerData={data[6]} />
       </div>
     );
   }

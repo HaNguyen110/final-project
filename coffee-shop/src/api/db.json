@@ -213,6 +213,10 @@
   ],
   "about": [
     {
+      "src":"/bgAbout.jpg",
+      "title":"Về chúng tôi"
+    },
+    {
       "title": "chào mừng bạn đến với cửa hàng của chúng tôi",
       "text": "Giữa cuộc sống đầy bộn bề lo toan, bạn vội vã hòa vào dòng người tấp nập, cuốn mình vào công việc bận rộn để rồi bạn chợt nhật ra đã bao lâu rồi bạn chưa dành thời gian cho bản thân nghỉ ngơi, thưởng thức một ly cà phê và lắng nghe âm nhạc, âm thanh của cuộc sống. Đến với cà phê chúng tôi bạn sẽ được hòa mình với thiên nhiên, chìm đắm trong tiếng nhạc du dương, tiếng chim lảnh lót và tiếng nước chảy róc rách.",
       "comment": "Với mục tiêu Luôn đặt chữ tín lên hàng đầu và hướng tới quan hệ khách hàng dài lâu. Chúng tôi cam kết sẽ mang lại cho bạn những trải nghiệm tuyệt vời khi mua hàng",
@@ -264,6 +268,49 @@
       "title": "các phương pháp của chúng tôi",
       "text": "Cách pha cafe phin xuất hiện từ thế kỷ 19 người và là phương pháp phổ biến nhất hiện nay tại Việt Nam. Phương pháp này dựa trên nguyên tắc chung là nước nóng đi qua cà phê bột tạo ra nước cà phê. Bên cạnh đó chất lượng cà phê cũng vô cùng quan trọng. Chúng tôi chọn cà phê nguyên chất đảm bảo sức khoẻ và cho hương vị tuyệt hảo nhất.",
       "comment": "Cà phê pha máy được pha trực tiếp từ loại máy pha cà phê espresso. Sở hữu thiết kế nhỏ gọn và đẹp mắt, không những thế còn được cài đặt tự động về áp suất nồi hơi, nhiệt độ nước, hàm lượng cà phê…nhờ đó mà cà phê sau khi được pha luôn đảm bảo về mặt chất lượng."
+    },
+    {
+      "footerData": [
+        {
+          "title": "about us",
+          "items": [
+            {
+              "text": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid."
+            },
+            {
+              "text": "hello@mtheme.org"
+            },
+            {
+              "text": "+(84)123456789"
+            },
+            {
+              "text": "198 West 21th Street, Suite 721 New York NY 10010"
+            }
+          ]
+        },
+        {
+          "title": "for business",
+          "items": [
+            {
+              "text": "Office Coffee"
+            },
+            {
+              "text": "Food Service"
+            },
+            {
+              "text": "Affiliate Program"
+            }
+          ]
+        },
+        {
+          "title": "follow us",
+          "items": [
+            {
+              "text": "Follow Origin on the following social network sites."
+            }
+          ]
+        }
+      ]
     }
   ],
   "home": [
@@ -321,6 +368,21 @@
       ]
     },
     {
+      "title": "chào mừng bạn đến với cửa hàng của chúng tôi",
+      "text": "Giữa cuộc sống đầy bộn bề lo toan, bạn vội vã hòa vào dòng người tấp nập, cuốn mình vào công việc bận rộn để rồi bạn chợt nhật ra đã bao lâu rồi bạn chưa dành thời gian cho bản thân nghỉ ngơi, thưởng thức một ly cà phê và lắng nghe âm nhạc, âm thanh của cuộc sống. Đến với cà phê chúng tôi bạn sẽ được hòa mình với thiên nhiên, chìm đắm trong tiếng nhạc du dương, tiếng chim lảnh lót và tiếng nước chảy róc rách.",
+      "comment": "Với mục tiêu Luôn đặt chữ tín lên hàng đầu và hướng tới quan hệ khách hàng dài lâu. Chúng tôi cam kết sẽ mang lại cho bạn những trải nghiệm tuyệt vời khi mua hàng",
+      "images": [
+        {
+          "src": "/infoUs-bg.jpeg",
+          "alt": "bg"
+        },
+        {
+          "src": "/infoUs.png",
+          "alt": "bg"
+        }
+      ]
+    },
+    {
       "image": {
         "src": "/bg-2.jpg",
         "alt": "bg"
@@ -347,8 +409,7 @@
     },
     {
       "title": "do you want to retation the video recipe",
-      "text":
-        "Coffee is a ritual, a small treat in the morning, “fuel”, a break, chat, affair that makes up our lives. Making the coffee better, we make our lives better.",
+      "text": "Coffee is a ritual, a small treat in the morning, “fuel”, a break, chat, affair that makes up our lives. Making the coffee better, we make our lives better.",
       "src": "/img-13.png",
       "alt": "recipe",
       "content": [
@@ -367,7 +428,7 @@
       },
       "title": "Hãy lựa chọn cho mình món đồ mà bạn thích",
       "quote": "“Cách mà khách hàng luôn nhớ về chúng tôi mỗi khi thức dậy.”",
-    
+
       "items": [
         {
           "text": "Phin inox, phin gốm sứ, phin nhôm mạ màu ion"

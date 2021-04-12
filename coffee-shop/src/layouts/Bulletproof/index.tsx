@@ -15,8 +15,8 @@ type items = {
 
 type bulletproofData = {
   image: image;
-  title: "";
-  quote: "";
+  title;
+  quote;
   items: Array<items>;
 };
 
@@ -25,7 +25,7 @@ type Props = {
 };
 
 const Bulletproof = ({ bulletproofData }: Props) => {
-  const { image, title, quote, items } = bulletproofData;
+  const { image, title, quote, items } = bulletproofData || {};
   return (
     <div className={styles.bulletproof}>
       <div className="container">

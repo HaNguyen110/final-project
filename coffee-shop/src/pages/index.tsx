@@ -10,29 +10,45 @@ import Latest from "../layouts/Latest";
 import Bulletproof from "../layouts/Bulletproof";
 import Footer from "../layouts/Footer";
 
-type Props = {};
+import { HomeBody } from "../types/HomeTypes";
 
-export default function Home(data: Props) {
+type Props = {
+  data: HomeBody;
+};
+
+const Home = ({ data }: Props) => {
   if (data) {
     return (
       <div className={styles.container}>
         <SEO title="Home page" description="This is Home page" />
 
-        <Hero isActiveCarousel navigationData />
+        {/* <Hero isActiveCarousel navigationData={data[1]} /> */}
 
-        <InfoUs infoUsData={infoUsData} />
+        <InfoUs infoUsData={data[3]} />
 
-        <Service serverData={serverData} />
+        <Service serverData={data[4]} />
 
-        <Latest latestData={latestData} />
+        <Latest latestData={data[5]} />
 
-        <Recipe recipeData={recipeData} />
+        <Recipe recipeData={data[6]} />
 
-        <Bulletproof bulletproofData={bulletproofData} />
+        <Bulletproof bulletproofData={data[7]} />
 
         <Footer />
       </div>
     );
   }
   return null;
+};
+export default Home;
+
+export async function getStaticProps() {
+  const res = await fetch(`http://localhost:3004/home`);
+  const data = await res.json();
+
+  return {
+    props: {
+      data,
+    },
+  };
 }

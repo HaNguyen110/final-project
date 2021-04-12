@@ -1,4 +1,5 @@
 import styles from "./Description.module.css";
+
 type ClassNames = {
   title?: string;
   text?: string;

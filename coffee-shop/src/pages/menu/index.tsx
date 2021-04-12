@@ -8,7 +8,7 @@ const Menu = ({ data }) => {
   if (data) {
     return (
       <>
-        <Hero src="/bgMenu.jpg" title="menu" />
+        {/* <Hero src="/bgMenu.jpg" title="menu" /> */}
 
         <div className={`${styles.MenuCategories} container`}>
           {data.map((item) => {
@@ -28,3 +28,14 @@ const Menu = ({ data }) => {
 };
 
 export default Menu;
+
+export async function getStaticProps() {
+  const res = await fetch(`http://localhost:3004/menu`);
+  const data = await res.json();
+
+  return {
+    props: {
+      data,
+    },
+  };
+}

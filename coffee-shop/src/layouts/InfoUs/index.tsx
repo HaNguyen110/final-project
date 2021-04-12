@@ -33,8 +33,8 @@ const InfoUs = ({ infoUsData }: Props) => {
             </div>
             <div className={`${styles.infoImg} col-md-6`}>
               <Image
-                src={images.src}
-                alt={images.alt}
+                src={images[1].src}
+                alt={images[1].alt}
                 height={400}
                 width={340}
                 objectFit="cover"
@@ -44,8 +44,8 @@ const InfoUs = ({ infoUsData }: Props) => {
         </div>
         <div className={styles.imgBg}>
           <Image
-            src={images.src}
-            alt={images.alt}
+            src={images[0].src}
+            alt={images[0].alt}
             height={500}
             width={1370}
             objectFit="cover"

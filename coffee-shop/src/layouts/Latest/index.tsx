@@ -15,7 +15,7 @@ type item = {
 };
 
 type latestData = {
-  items: Array<item>;
+  items: item[];
   title: string;
   src: string;
   alt: string;
@@ -27,8 +27,6 @@ type Props = {
 
 const Latest = ({ latestData }: Props) => {
   const { title, src, alt, items } = latestData;
-  const latestTea = items[0];
-  const latestCoffee = items[1];
   return (
     <div className={styles.latest}>
       <div className="container">
@@ -39,8 +37,8 @@ const Latest = ({ latestData }: Props) => {
               <div className="col-md-4">
                 <div className={styles.img}>
                   <Image
-                    src={latestTea.src}
-                    alt={latestTea.alt}
+                    src={items[1].src}
+                    alt={items[1].alt}
                     width={220}
                     height={143}
                     objectFit="cover"
@@ -50,27 +48,21 @@ const Latest = ({ latestData }: Props) => {
 
               <div className="col-md-8">
                 <div className={styles.latestContent}>
-                  <Post
-                    title={latestTea.subTitle}
-                    text={latestTea.description}
-                  />
+                  <Post title={items[1].subTitle} text={items[1].description} />
                 </div>
               </div>
             </div>
             <div className={`${styles.line} row`}>
               <div className="col-md-8">
                 <div className={styles.latestContent}>
-                  <Post
-                    title={latestCoffee.subTitle}
-                    text={latestCoffee.description}
-                  />
+                  <Post title={items[0].subTitle} text={items[0].description} />
                 </div>
               </div>
               <div className="col-md-4">
                 <div className={styles.img}>
                   <Image
-                    src={latestCoffee.src}
-                    alt={latestCoffee.alt}
+                    src={items[0].src}
+                    alt={items[0].alt}
                     width={220}
                     height={155}
                     objectFit="cover"

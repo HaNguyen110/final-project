@@ -14,7 +14,7 @@ type recipeData = {
   text: string;
   src: string;
   alt: string;
-  content: Array<content>;
+  content: content[];
 };
 
 type Props = {
@@ -22,9 +22,7 @@ type Props = {
 };
 
 const Recipe = ({ recipeData }: Props) => {
-  const { title, text, src, alt, content } = recipeData;
-  const coffee = content[0];
-  const roastedCoffee = content[1];
+  const { title, text, src, alt, content } = recipeData || {};
   return (
     <div className={styles.infoRecipe}>
       <div className="container">
@@ -52,12 +50,12 @@ const Recipe = ({ recipeData }: Props) => {
             <div className="row">
               <div className="col-lg-6">
                 <h5 className={styles.comment}>
-                  <Description text={coffee.description} />
+                  <Description text={content[0].description} />
                 </h5>
               </div>
               <div className="col-lg-6">
                 <h5 className={styles.comment}>
-                  <Description text={roastedCoffee.description} />
+                  <Description text={content[1].description} />
                 </h5>
               </div>
             </div>
