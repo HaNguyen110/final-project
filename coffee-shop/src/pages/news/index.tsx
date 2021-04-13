@@ -11,12 +11,12 @@ const News = ({ data }) => {
   if (data) {
     return (
       <div>
-        {/* <SEO title="News & Events page" description="This is New page" />
-        <Hero src="/bgNew.jpg" title="Tin tức và sự kiện" /> */}
-        {data.map((item) => {
+        {/* <SEO title="News & Events page" description="This is New page" />*/}
+        <Hero heroData={data[0]} navigationData={data[1].navigationData} />
+        {data[2].newsData.map((item) => {
           return <NewPost newsEventsData={item} key={item.id} />;
         })}
-        {/* <Footer /> */}
+        <Footer footerData={data[3].footerData} />
       </div>
     );
   }

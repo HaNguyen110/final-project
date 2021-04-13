@@ -8,13 +8,10 @@ const Menu = ({ data }) => {
   if (data) {
     return (
       <>
-        <Hero
-          heroData={data[0].heroData}
-          navigationData={data[1].navigationData}
-        />
+        <Hero heroData={data[0]} navigationData={data[1].navigationData} />
 
         <div className={`${styles.MenuCategories} container`}>
-          {data.map((item) => {
+          {data[2].menuData.map((item) => {
             return (
               <div className={`${styles.categories} row`}>
                 <MenuCategory menuData={item} key={item.id} />
@@ -23,7 +20,7 @@ const Menu = ({ data }) => {
           })}
         </div>
 
-        <Footer footerData={data[2].footerData} />
+        <Footer footerData={data[3].footerData} />
       </>
     );
   }
