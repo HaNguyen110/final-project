@@ -33,7 +33,6 @@ const NewPost = ({ newsEventsData }: Props) => {
           <div className="col-md-6">
             <Link href={`/news/[id]`} as={`/news/${id}`}>
               <Image
-                className=""
                 src={image.src}
                 alt={image.alt}
                 width={552}

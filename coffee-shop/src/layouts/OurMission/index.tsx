@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import styles from "./OutMission.module.css";
+import styles from "./OurMission.module.css";
 
 import Description from "../../components/Description";
 

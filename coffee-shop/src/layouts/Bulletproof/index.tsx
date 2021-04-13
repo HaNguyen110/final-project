@@ -17,7 +17,7 @@ type bulletproofData = {
   image: image;
   title;
   quote;
-  items: Array<items>;
+  items: items[];
 };
 
 type Props = {

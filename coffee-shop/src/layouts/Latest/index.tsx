@@ -26,7 +26,7 @@ type Props = {
 };
 
 const Latest = ({ latestData }: Props) => {
-  const { title, src, alt, items } = latestData;
+  const { title, src, alt, items } = latestData || {};
   return (
     <div className={styles.latest}>
       <div className="container">

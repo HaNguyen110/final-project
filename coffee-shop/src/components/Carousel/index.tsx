@@ -17,12 +17,12 @@ const Carousel = ({ data }: Props) => {
     >
       <ol className="carousel-indicators">
         <li
-          data-target="#carouselExampleIndicators"
+          data-target="carouselExampleIndicators"
           data-slide-to="0"
           className="active"
         ></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
       <div className="carousel-inner" role="listbox">
         {data && data.map((item) => <CarouselItem item={item} />)}

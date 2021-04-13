@@ -34,7 +34,6 @@ const MenuCategory = ({ menuData }: Props) => {
         <h1 className={styles.categoryItem}>{category}</h1>
         <div className={styles.itemImg}>
           <Image
-            className=""
             src={image.src}
             alt={image.alt}
             width={525}
