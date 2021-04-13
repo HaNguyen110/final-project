@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 import styles from "./Footer.module.css";
 
 type Item = {
@@ -12,30 +10,32 @@ type footerData = {
 };
 
 type Props = {
-  footerData: footerData;
+  footerData: footerData[];
 };
 
 const Footer = ({ footerData }: Props) => {
-  const { title, items } = footerData || {};
-  console.log("footerData", footerData);
-
   return (
     <>
       <div className={styles.footer}>
         <footer className="container">
           <div className="row">
-            <div className="col-md-4">
-              <aside className="widget">
-                <h3 className={styles.title}>{title}</h3>
-                <div>
-                  <p>{items}</p>
+            {footerData.map((data) => {
+              const { title, items } = data || {};
+              return (
+                <div className="col-md-4">
+                  <aside className="widget">
+                    <h3 className={styles.title}>{title}</h3>
+                    {items.map((item) => {
+                      return (
+                        <div>
+                          <p>{item.text}</p>
+                        </div>
+                      );
+                    })}
+                  </aside>
                 </div>
-              </aside>
-            </div>
-
-            {/* <div className={styles.copyright}>
-              <p>Copyright &copy; 2015</p>
-            </div> */}
+              );
+            })}
           </div>
         </footer>
       </div>

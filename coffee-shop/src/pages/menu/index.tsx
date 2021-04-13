@@ -19,8 +19,6 @@ const Menu = ({ data }) => {
             );
           })}
         </div>
-
-        <Footer />
       </>
     );
   }

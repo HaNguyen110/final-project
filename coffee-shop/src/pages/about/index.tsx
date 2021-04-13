@@ -15,25 +15,24 @@ type Props = {
 };
 
 const About = ({ data }: Props) => {
-  console.log("data", data);
   if (data) {
     return (
       <div>
         <SEO title="About page" description="This is About page" />
 
-        <Hero heroData={data[0]} />
+        <Hero heroData={data[0]} navigationData={data[1].navigationData} />
 
-        <InfoUs infoUsData={data[1]} />
+        <InfoUs infoUsData={data[2]} />
 
-        <OurMission ourMissionData={data[2]} />
+        <OurMission ourMissionData={data[3]} />
 
-        <OurPromise ourPromiseData={data[3]} />
+        <OurPromise ourPromiseData={data[4]} />
 
-        <Flickity flickityData={data[4]} />
+        <Flickity flickityData={data[5]} />
 
-        <OurMethods ourMethodsData={data[5]} />
+        <OurMethods ourMethodsData={data[6]} />
 
-        <Footer footerData={data[6]} />
+        <Footer footerData={data[7].footerData} />
       </div>
     );
   }

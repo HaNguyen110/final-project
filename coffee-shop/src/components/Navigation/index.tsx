@@ -12,7 +12,7 @@ type Props = {
   classNames?: string;
 };
 
-const Navigation = ({ menu = [], classNames = "" }: Props) => {
+const Navigation = ({ menu = [], classNames }: Props) => {
   return (
     <nav className={`${styles.navbar} navbar navbar-expand-lg `}>
       <div className={styles.navbarMenu}>

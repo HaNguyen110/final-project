@@ -17,13 +17,19 @@ type Props = {
 };
 
 const Home = ({ data }: Props) => {
+  console.log("data", data);
+
   if (data) {
     return (
       <div className={styles.container}>
         <SEO title="Home page" description="This is Home page" />
 
-        {/* <Hero isActiveCarousel navigationData={data[1]} /> */}
-
+        <Hero
+          isActiveCarousel
+          heroData={data[0]}
+          navigationData={data[1].navigationData}
+          carouselData={data[2]?.carouselData}
+        />
         <InfoUs infoUsData={data[3]} />
 
         <Service serverData={data[4]} />
@@ -34,7 +40,7 @@ const Home = ({ data }: Props) => {
 
         <Bulletproof bulletproofData={data[7]} />
 
-        <Footer />
+        <Footer footerData={data[8].footerData} />
       </div>
     );
   }

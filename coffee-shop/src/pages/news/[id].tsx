@@ -21,14 +21,7 @@ const NewsDetailPost = ({ detail }) => {
     <>
       {/* <Hero src="/bgNew.jpg" title="tin tức và sự kiện" /> */}
       <div className={styles.detailImg}>
-        <Image
-          className=""
-          src={src}
-          alt={alt}
-          width={750}
-          height={435}
-          objectFit="cover"
-        />
+        <Image src={src} alt={alt} width={750} height={435} objectFit="cover" />
       </div>
 
       <InfoNewsDetail
@@ -38,6 +31,8 @@ const NewsDetailPost = ({ detail }) => {
         quote={quote}
         description={description}
       />
+
+      <footer />
     </>
   );
 };

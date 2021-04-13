@@ -1,5 +1,6 @@
 {
   "news-events": [
+    
     {
       "id": "1",
       "image": {
@@ -209,12 +210,36 @@
           "description": "Process all ingredients in a blender until smooth."
         }
       ]
-    }
+    }  
   ],
   "about": [
     {
       "src":"/bgAbout.jpg",
       "title":"Về chúng tôi"
+    },
+    {
+      "navigationData": [
+        {
+          "id": 1,
+          "label": "Trang chủ",
+          "href": "/"
+        },
+        {
+          "id": 2,
+          "label": "Về chúng tôi",
+          "href": "/about"
+        },
+        {
+          "id": 3,
+          "label": "Thực đơn",
+          "href": "/menu"
+        },
+        {
+          "id": 4,
+          "label": "Tin tức và sự kiện",
+          "href": "/news"
+        }
+      ]
     },
     {
       "title": "chào mừng bạn đến với cửa hàng của chúng tôi",
@@ -444,6 +469,49 @@
         },
         {
           "text": "Túi canva cá tính"
+        }
+      ]
+    },
+    {
+      "footerData": [
+        {
+          "title": "about us",
+          "items": [
+            {
+              "text": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid."
+            },
+            {
+              "text": "hello@mtheme.org"
+            },
+            {
+              "text": "+(84)123456789"
+            },
+            {
+              "text": "198 West 21th Street, Suite 721 New York NY 10010"
+            }
+          ]
+        },
+        {
+          "title": "for business",
+          "items": [
+            {
+              "text": "Office Coffee"
+            },
+            {
+              "text": "Food Service"
+            },
+            {
+              "text": "Affiliate Program"
+            }
+          ]
+        },
+        {
+          "title": "follow us",
+          "items": [
+            {
+              "text": "Follow Origin on the following social network sites."
+            }
+          ]
         }
       ]
     }
