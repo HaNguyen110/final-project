@@ -16,7 +16,7 @@ type image = {
 
 type menuData = {
   id: string;
-  items: Array<item>;
+  items: item[];
   category: string;
   image: image;
 };

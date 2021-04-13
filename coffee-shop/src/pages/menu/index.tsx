@@ -8,7 +8,10 @@ const Menu = ({ data }) => {
   if (data) {
     return (
       <>
-        {/* <Hero src="/bgMenu.jpg" title="menu" /> */}
+        <Hero
+          heroData={data[0].heroData}
+          navigationData={data[1].navigationData}
+        />
 
         <div className={`${styles.MenuCategories} container`}>
           {data.map((item) => {
@@ -19,6 +22,8 @@ const Menu = ({ data }) => {
             );
           })}
         </div>
+
+        <Footer footerData={data[2].footerData} />
       </>
     );
   }
