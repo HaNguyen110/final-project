@@ -1,5 +1,3 @@
-import React from "react";
-
 import styles from "./Latest.module.css";
 
 import Image from "next/image";
