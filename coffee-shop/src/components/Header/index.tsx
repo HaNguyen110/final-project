@@ -1,4 +1,4 @@
-import styles from "./Description.module.css";
+import styles from "./Header.module.css";
 
 type ClassNames = {
   title?: string;
@@ -13,7 +13,7 @@ type Props = {
   classNames?: ClassNames;
 };
 
-const Description = ({
+const Header = ({
   title = "",
   text = "",
   comment = "",
@@ -28,4 +28,4 @@ const Description = ({
   );
 };
 
-export default Description;
+export default Header;

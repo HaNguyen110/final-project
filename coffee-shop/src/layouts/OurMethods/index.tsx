@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import styles from "./OurMethods.module.css";
 
-import Description from "../../components/Description";
+import Header from "../../components/Header";
 
 type image = {
   src: string;
@@ -37,7 +37,7 @@ const OurMethods = ({ ourMethodsData }: Props) => {
             />
           </div>
           <div className="col-md-7">
-            <Description title={title} text={text} comment={comment} />
+            <Header title={title} text={text} comment={comment} />
           </div>
         </div>
       </div>

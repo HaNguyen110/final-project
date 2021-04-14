@@ -18,7 +18,7 @@ const About = ({ data }: Props) => {
   if (data) {
     return (
       <div>
-        <SEO title="About page" description="This is About page" />
+        {/* <SEO title="About page" description="This is About page" /> */}
 
         <Hero heroData={data[0]} navigationData={data[1].navigationData} />
 

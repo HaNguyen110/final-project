@@ -5,19 +5,30 @@ import styles from "./Hero.module.css";
 import Carousel from "../../components/Carousel";
 import Logo from "../../components/Logo";
 import Navigation from "../../components/Navigation";
-import Description from "../../components/Description";
+import Header from "../../components/Header";
 
 type heroBg = {
   src: string;
   title: string;
 };
 
-type heroData = {
-  heroBg: heroBg;
+type carouselData = {
+  src: string;
+  alt: string;
+  title: string;
+  text: string;
+};
+
+type navigationData = {
+  id: number;
+  lable: string;
+  href: string;
 };
 
 type Props = {
-  heroData: heroData;
+  heroData: heroBg;
+  carouselData?: carouselData;
+  navigationData: navigationData[];
   isActiveCarousel?: boolean;
 };
 
@@ -58,7 +69,7 @@ const Hero = ({
               />
             </div>
             <div className={`${styles.title} container`}>
-              <Description title={title} classNames={{ title: "text-white" }} />
+              <Header title={title} classNames={{ title: "text-white" }} />
             </div>
           </>
         )}

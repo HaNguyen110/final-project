@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import styles from "./InfoUs.module.css";
 
-import Description from "../../components/Description";
+import Header from "../../components/Header";
 import image from "next/image";
 
 type image = {
@@ -29,7 +29,7 @@ const InfoUs = ({ infoUsData }: Props) => {
         <div className="container">
           <div className={`${styles.infoContent} row`}>
             <div className={`${styles.des} col-md-6`}>
-              <Description title={title} text={text} comment={comment} />
+              <Header title={title} text={text} comment={comment} />
             </div>
             <div className={`${styles.infoImg} col-md-6`}>
               <Image

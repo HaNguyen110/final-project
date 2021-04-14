@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import Description from "../Description";
+import Header from "../Header";
 
 import styles from "./Carousel.module.css";
 
@@ -20,7 +20,7 @@ const CarouselItem = ({ item }: Props) => {
   return (
     <div className={`carousel-item ${item.isActive ? "active" : ""}`}>
       <div className={styles.carouselContent}>
-        <Description
+        <Header
           title={item.title}
           text={item.text}
           classNames={{

@@ -2,7 +2,7 @@ import styles from "./Latest.module.css";
 
 import Image from "next/image";
 
-import Description from "../../components/Description";
+import Header from "../../components/Header";
 import Post from "../../components/Post";
 
 type item = {
@@ -30,7 +30,7 @@ const Latest = ({ latestData }: Props) => {
       <div className="container">
         <div className="row">
           <div className={`${styles.infoLatest} col`}>
-            <Description title={title} classNames={{ title: "text-center" }} />
+            <Header title={title} classNames={{ title: "text-center" }} />
             <div className={`${styles.line} row`}>
               <div className="col-md-4">
                 <div className={styles.img}>

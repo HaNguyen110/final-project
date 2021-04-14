@@ -14,7 +14,7 @@ type Props = {
 };
 
 const Flickity = ({ flickityData }: Props) => {
-  const { image } = flickityData;
+  const { image } = flickityData || {};
 
   return (
     <Image

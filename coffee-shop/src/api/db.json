@@ -1,4 +1,65 @@
 {
+  "news-list": [
+    {
+      "id": "1",
+      "image": {
+        "src": "/news-1.jpeg",
+        "alt": "news image 1"
+      },
+      "title": "Chương trình ca nhạc acoustic hằng đêm.",
+      "description": "Từ 7:00pm mỗi ngày, sẽ có chương trình ca nhạc acoustic hằng đêm. Chương trình hoàn toàn miễn phí, không tính phí phụ thu. Do không thu phí, chương trình sẽ sắp xếp chỗ ngồi và phục vụ cho khách hàng đến trước.",
+      "quote": "Cán mốc hơn 3.000 ly cà phê, quán tri ân khách hàng, nhằm cảm hơn quý khách hàng đã ủng hộ và đồng hành suốt thời gian qua. Hy vọng trong thời gian tới quán vẫn được ở sát cánh cùng các bạn.Mua 2 tặng 1 áp dụng với Cà phê đen, cà phê sữa, kể cả mang về.",
+      "date": "27 / tháng 4",
+      "note": "Post by mTheme / Coffee / 7 comments"
+    },
+    {
+      "id": "2",
+      "image": {
+        "src": "/news-2.jpeg",
+        "alt": "news image 2"
+      },
+      "title": "Kỷ niệm ngày lễ 30/4 và 1/5",
+      "description": "Từ ngày 27/4 đến ngày 1/5/2021 khách hàng đến mua trực tiếp ở của hàng sẽ nhận được được ưu đãi sau: hóa đơn trên 100K sẽ được tặng một ly sứ  ",
+      "quote": "Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor nequeu tellus ut eleifend nibh porttitor. Ut in nulla enim hasell moytrirolestie magna lorem ipsum dolor site amet retituros est bibendum anon venenatis lectus vestibulum faucibus eget in metus.",
+      "date": "27 / tháng 4",
+      "note": "Post by mTheme / Coffee / 7 comments"
+    },
+    {
+      "id": "3",
+      "image": {
+        "src": "/news-3.jpeg",
+        "alt": "news image 3"
+      },
+      "title": "[coffee shop] chính thức có mặt trên Now Delivery",
+      "description": "Chính thức liên kết với Now Delivery với mong muốn tối ưu trải nghiệm người dùng. Bạn hãy tải app Now Delivery trên App Store hoặc CH play và tìm kiếm [Tên Quán] trên app và có thể thưởng thức những món ngon của quán ở mọi nơi.   ",
+      "quote": "Với Now Delivery, quý khách có thể nhận được những ưu đãi, voucher để được tiết kiệm tối đa mà vẫn có thể tận hưởng hương vị  của quán mọi lúc, mọi nơi. ",
+      "date": "05 / tháng 5",
+      "note": "Post by mTheme / Coffee / 7 comments"
+    },
+    {
+      "id": "4",
+      "image": {
+        "src": "/news-4.jpeg",
+        "alt": "news image 4"
+      },
+      "title": "[cofee shop] gửi bạn lịch hoạt động mới nhất",
+      "description": "Vì sức khoẻ của bạn và cộng đồng là ưu tiên hàng đầu của [Tên quán] và vì cuộc hẹn cà phê thật rôm rả vào 1 ngày không xa của chúng ta, [Tên quán] sẽ nghiêm túc thực hiện theo chỉ thị của cơ quan chức năng về công tác phòng chống dịch bệnh Covid-19, cụ thể sẽ điều chỉnh lịch hoạt động cửa hàng như sau: ",
+      "quote": "Giờ hoạt động",
+      "date": "05 / tháng 1",
+      "note": "Post by mTheme / Coffee / 7 comments"
+    },
+    {
+      "id": "5",
+      "image": {
+        "src": "/news-5.jpeg",
+        "alt": "news image 5"
+      },
+      "title": "CONSECTETUR ADIPISCING ELIT",
+      "description": "Sed ut perspiciatis unde omnis iste natus error sit sed quia consequuntur magni dolores eos nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque",
+      "date": "05 / may",
+      "note": "Post by mTheme / Coffee / 7 comments"
+    }
+  ],
   "news-events": [
     {
       "src": "/bgNew.jpg",
@@ -29,106 +90,43 @@
       ]
     },
     {
-      "newsData": [
-        {
-          "id": "1",
-          "image": {
-            "src": "/news-1.jpeg",
-            "alt": "news image 1"
-          },
-          "title": "Chương trình ca nhạc acoustic hằng đêm.",
-          "description": "Từ 7:00pm mỗi ngày, sẽ có chương trình ca nhạc acoustic hằng đêm. Chương trình hoàn toàn miễn phí, không tính phí phụ thu. Do không thu phí, chương trình sẽ sắp xếp chỗ ngồi và phục vụ cho khách hàng đến trước.",
-          "quote": "Cán mốc hơn 3.000 ly cà phê, quán tri ân khách hàng, nhằm cảm hơn quý khách hàng đã ủng hộ và đồng hành suốt thời gian qua. Hy vọng trong thời gian tới quán vẫn được ở sát cánh cùng các bạn.Mua 2 tặng 1 áp dụng với Cà phê đen, cà phê sữa, kể cả mang về.",
-          "date": "27 / tháng 4",
-          "note": "Post by mTheme / Coffee / 7 comments"
-        },
-        {
-          "id": "2",
-          "image": {
-            "src": "/news-2.jpeg",
-            "alt": "news image 2"
-          },
-          "title": "Kỷ niệm ngày lễ 30/4 và 1/5",
-          "description": "Từ ngày 27/4 đến ngày 1/5/2021 khách hàng đến mua trực tiếp ở của hàng sẽ nhận được được ưu đãi sau: hóa đơn trên 100K sẽ được tặng một ly sứ  ",
-          "quote": "Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor nequeu tellus ut eleifend nibh porttitor. Ut in nulla enim hasell moytrirolestie magna lorem ipsum dolor site amet retituros est bibendum anon venenatis lectus vestibulum faucibus eget in metus.",
-          "date": "27 / tháng 4",
-          "note": "Post by mTheme / Coffee / 7 comments"
-        },
-        {
-          "id": "3",
-          "image": {
-            "src": "/news-3.jpeg",
-            "alt": "news image 3"
-          },
-          "title": "[coffee shop] chính thức có mặt trên Now Delivery",
-          "description": "Chính thức liên kết với Now Delivery với mong muốn tối ưu trải nghiệm người dùng. Bạn hãy tải app Now Delivery trên App Store hoặc CH play và tìm kiếm [Tên Quán] trên app và có thể thưởng thức những món ngon của quán ở mọi nơi.   ",
-          "quote": "Với Now Delivery, quý khách có thể nhận được những ưu đãi, voucher để được tiết kiệm tối đa mà vẫn có thể tận hưởng hương vị  của quán mọi lúc, mọi nơi. ",
-          "date": "05 / tháng 5",
-          "note": "Post by mTheme / Coffee / 7 comments"
-        },
-        {
-          "id": "4",
-          "image": {
-            "src": "/news-4.jpeg",
-            "alt": "news image 4"
-          },
-          "title": "[cofee shop] gửi bạn lịch hoạt động mới nhất",
-          "description": "Vì sức khoẻ của bạn và cộng đồng là ưu tiên hàng đầu của [Tên quán] và vì cuộc hẹn cà phê thật rôm rả vào 1 ngày không xa của chúng ta, [Tên quán] sẽ nghiêm túc thực hiện theo chỉ thị của cơ quan chức năng về công tác phòng chống dịch bệnh Covid-19, cụ thể sẽ điều chỉnh lịch hoạt động cửa hàng như sau: ",
-          "quote": "Giờ hoạt động",
-          "date": "05 / tháng 1",
-          "note": "Post by mTheme / Coffee / 7 comments"
-        },
-        {
-          "id": "5",
-          "image": {
-            "src": "/news-5.jpeg",
-            "alt": "news image 5"
-          },
-          "title": "CONSECTETUR ADIPISCING ELIT",
-          "description": "Sed ut perspiciatis unde omnis iste natus error sit sed quia consequuntur magni dolores eos nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque",
-          "date": "05 / may",
-          "note": "Post by mTheme / Coffee / 7 comments"
-        }
-      ]
-    },
-    {
       "footerData": [
         {
-          "title": "about us",
+          "title": "Về chúng tôi",
           "items": [
             {
-              "text": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid."
+              "text": "“Dù có phải xới tung trái đất này lên cũng phải làm để tạo ra những tuyệt phẩm cà phê năng lượng ngon nhất”."
             },
             {
-              "text": "hello@mtheme.org"
+              "text": "cofeeshop@gmail.com"
             },
             {
               "text": "+(84)123456789"
             },
             {
-              "text": "198 West 21th Street, Suite 721 New York NY 10010"
+              "text": "Đà Nẵng, Việt Nam"
             }
           ]
         },
         {
-          "title": "for business",
+          "title": "Thời gian hoạt động",
           "items": [
             {
-              "text": "Office Coffee"
+              "text": "Thứ hai - thứ năm: 8 giờ sáng - 5 giờ chiều"
             },
             {
-              "text": "Food Service"
+              "text": "Thứ bảy - Chủ nhật: 8 giờ sáng - 7 giờ chiều"
             },
             {
-              "text": "Affiliate Program"
+              "text": "Ngày lễ: Đóng cửa"
             }
           ]
         },
         {
-          "title": "follow us",
+          "title": "Theo dõi chúng tôi",
           "items": [
             {
-              "text": "Follow Origin on the following social network sites."
+              "text": "Theo dõi chúng tôi tại Website này và thường xuyên cập nhật những thông tin mới nhất của của hàng bạn nhé !"
             }
           ]
         }
@@ -177,33 +175,33 @@
             {
               "name": "Cà phê đen phin ( nóng / đá )",
               "price": "15,000 Đ",
-              "description": "Our selection of coffee beans have been rigorously tested with every different type of coffee machine to make."
+              "description": "Giữa dòng đời vồn vã, một tách cà phê trầm lắng, một chút đắng của cuộc sống, pha lẫn chút ngọt của yêu đời làm cho cuộc sống thêm nhiều hương vị. "
             },
 
             {
               "name": "Cà phê sữa phin ( nóng / đá )",
               "price": "20,000 Đ",
-              "description": "Coffee ice milk is the process that slowly and gradually releases the purest of essence."
+              "description": "Sự kết hợp giữa cà phê phin và sữa là một lựa chọn tuyệt vời cho những người muốn chìm đắm trong sự ngọt ngào. Là thức uống thương hiệu của người Việt Nam."
             },
             {
               "name": "Cà phê đen pha máy ( nóng / đá )",
               "price": "15,000 Đ",
-              "description": "Coffee ice milk is the process that slowly and gradually releases the purest of essence."
+              "description": " Hạt cà phê xay trực tiếp từ trong máy, cùng với bàn tay điêu luyện, công thức tỉ mỉ của người pha cà phê đã tạo nên một ly cà phê vô cùng thơm ngon."
             },
             {
               "name": "Cà phê sữa pha máy ( nóng / đá )",
               "price": "20,000 Đ",
-              "description": "Coffee ice milk is the process that slowly and gradually releases the purest of essence."
+              "description": " Hạt cà phê xay trực tiếp từ trong máy, cùng với bàn tay điêu luyện, công thức tỉ mỉ của người pha cà phê đã tạo nên một ly cà phê vô cùng thơm ngon."
             },
             {
               "name": "Cà phê đen sài gòn",
               "price": "25,000 Đ",
-              "description": "Grown traditionally, harvested naturally and roasted lovingly, they're the star of every cup."
+              "description": "Ly cà phê đen đá Sài Gòn từ lâu đã không chỉ đặc trưng bởi hương vị, mà còn bởi chất con người, chất cuộc sống Sài thành thấm dần vào hương vị ấy. "
             },
             {
               "name": "Cà phê sữa sài gòn",
               "price": "30,000 Đ",
-              "description": "Some start life in Africa, others in South America, but all end up close to our heart."
+              "description": "Ly cà phê sữa đá Sài Gòn từ lâu đã không chỉ đặc trưng bởi hương vị, mà còn bởi chất con người, chất cuộc sống Sài thành thấm dần vào hương vị ấy. "
             }
           ]
         },
@@ -218,22 +216,22 @@
             {
               "name": "Thơm, dâu tây, cà chua, cà rốt, cóc, chanh dây",
               "price": "20,000 Đ",
-              "description": "Add Kahlua, crème de Menthe, crème de cacao, milk and ice to a blender and blend on low speed until smooth."
+              "description": "Nước ép có thể tăng cường sức đề kháng do chứa nhiều chất diệp hồng tố (Lycopene) của cà rốt, cà chua và vitamin C của chanh."
             },
             {
               "name": "Cà chua + cà rốt",
               "price": "20,000 Đ",
-              "description": "Get the mixers out and shape your Saturday night party like an Aspri Spirits night!"
+              "description": "Sự kết hợp có thể giúp tăng cường sức đề kháng do chứa nhiều chất diệp hồng tố (Lycopene) của cà rốt, cà chua; giúp sáng mắt và làn da thêm tươi sáng. "
             },
             {
               "name": "Nước cam",
               "price": "30,000 Đ",
-              "description": "Get the mixers out and shape your Saturday night party like an Aspri Spirits night!"
+              "description": "Nước cam là thức uống được nhiều người yêu thích trên khắp thế giới với nhiều chất dinh dưỡng tự nhiên quan trọng, chẳng hạn như vitamin C và kali."
             },
             {
               "name": "nước chanh ( nóng / đá )",
               "price": "20,000 Đ",
-              "description": "Get the mixers out and shape your Saturday night party like an Aspri Spirits night!"
+              "description": "Nước chanh chắc chắn là một nước giải khát ngon miệng, nhưng bên cạnh đó lợi ích của nước chanh cũng rất được đánh giá cao, giảm cân, cải thiện hệ tiêu hóa, "
             }
           ]
         },
@@ -248,27 +246,27 @@
             {
               "name": "Trà gừng",
               "price": "20,000 Đ",
-              "description": "Combine the Lipton Ice Tea Lemon and the lemonade in a pitcher."
+              "description": "Uống trà không đơn giản chỉ là một thói quen thường ngày trong những lúc thư giãn, rảnh rỗi. "
             },
             {
               "name": "Trà lipton",
               "price": "20,000 Đ",
-              "description": "Combine Lipton Ice Tea Lemon with the orange juice in a large pitcher; stir in the sliced fruit."
+              "description": "Uống trà không đơn giản chỉ là một thói quen thường ngày trong những lúc thư giãn, rảnh rỗi. "
             },
             {
               "name": "Trà lipton sữa",
               "price": "25,000 Đ",
-              "description": "Combine Lipton Ice Tea Lemon with the orange juice in a large pitcher; stir in the sliced fruit."
+              "description": "Uống trà không đơn giản chỉ là một thói quen thường ngày trong những lúc thư giãn, rảnh rỗi. "
             },
             {
               "name": "Trà chanh",
               "price": "18,000 Đ",
-              "description": "Thoroughly crush the mint with a wooden spoon on the side of the pitcher."
+              "description": "Uống trà không đơn giản chỉ là một thói quen thường ngày trong những lúc thư giãn, rảnh rỗi. "
             },
             {
               "name": "Trà đào",
               "price": "30,000 Đ",
-              "description": "Process all ingredients in a blender until smooth."
+              "description": "Uống trà không đơn giản chỉ là một thói quen thường ngày trong những lúc thư giãn, rảnh rỗi. "
             }
           ]
         },
@@ -282,38 +280,31 @@
           "items": [
             {
               "name": "Cacao ( nóng / đá )",
-              "price": "20,000 Đ",
-              "description": "Combine the Lipton Ice Tea Lemon and the lemonade in a pitcher."
+              "price": "20,000 Đ"
             },
             {
               "name": "Sữa chua đá",
-              "price": "20,000 Đ",
-              "description": "Combine Lipton Ice Tea Lemon with the orange juice in a large pitcher; stir in the sliced fruit."
+              "price": "20,000 Đ"
             },
             {
               "name": "Sữa chua dâu tây",
-              "price": "25,000 Đ",
-              "description": "Combine Lipton Ice Tea Lemon with the orange juice in a large pitcher; stir in the sliced fruit."
+              "price": "25,000 Đ"
             },
             {
               "name": "Coca, pepsi, bò húc",
-              "price": "15,000 Đ",
-              "description": "Thoroughly crush the mint with a wooden spoon on the side of the pitcher."
+              "price": "15,000 Đ"
             },
             {
               "name": "Nutri, revive",
-              "price": "18,000 Đ",
-              "description": "Process all ingredients in a blender until smooth."
+              "price": "18,000 Đ"
             },
             {
               "name": "Aquafina",
-              "price": "10,000 Đ",
-              "description": "Process all ingredients in a blender until smooth."
+              "price": "10,000 Đ"
             },
             {
               "name": "Nước khoáng ( lạt / ngọt )",
-              "price": "12,000 Đ",
-              "description": "Process all ingredients in a blender until smooth."
+              "price": "12,000 Đ"
             }
           ]
         }
@@ -322,41 +313,41 @@
     {
       "footerData": [
         {
-          "title": "about us",
+          "title": "Về chúng tôi",
           "items": [
             {
-              "text": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid."
+              "text": "“Dù có phải xới tung trái đất này lên cũng phải làm để tạo ra những tuyệt phẩm cà phê năng lượng ngon nhất”."
             },
             {
-              "text": "hello@mtheme.org"
+              "text": "cofeeshop@gmail.com"
             },
             {
               "text": "+(84)123456789"
             },
             {
-              "text": "198 West 21th Street, Suite 721 New York NY 10010"
+              "text": "Đà Nẵng, Việt Nam"
             }
           ]
         },
         {
-          "title": "for business",
+          "title": "Thời gian hoạt động",
           "items": [
             {
-              "text": "Office Coffee"
+              "text": "Thứ hai - thứ năm: 8 giờ sáng - 5 giờ chiều"
             },
             {
-              "text": "Food Service"
+              "text": "Thứ bảy - Chủ nhật: 8 giờ sáng - 7 giờ chiều"
             },
             {
-              "text": "Affiliate Program"
+              "text": "Ngày lễ: Đóng cửa"
             }
           ]
         },
         {
-          "title": "follow us",
+          "title": "Theo dõi chúng tôi",
           "items": [
             {
-              "text": "Follow Origin on the following social network sites."
+              "text": "Theo dõi chúng tôi tại Website này và thường xuyên cập nhật những thông tin mới nhất của của hàng bạn nhé !"
             }
           ]
         }
@@ -448,41 +439,41 @@
     {
       "footerData": [
         {
-          "title": "about us",
+          "title": "Về chúng tôi",
           "items": [
             {
-              "text": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid."
+              "text": "“Dù có phải xới tung trái đất này lên cũng phải làm để tạo ra những tuyệt phẩm cà phê năng lượng ngon nhất”."
             },
             {
-              "text": "hello@mtheme.org"
+              "text": "cofeeshop@gmail.com"
             },
             {
               "text": "+(84)123456789"
             },
             {
-              "text": "198 West 21th Street, Suite 721 New York NY 10010"
+              "text": "Đà Nẵng, Việt Nam"
             }
           ]
         },
         {
-          "title": "for business",
+          "title": "Thời gian hoạt động",
           "items": [
             {
-              "text": "Office Coffee"
+              "text": "Thứ hai - thứ năm: 8 giờ sáng - 5 giờ chiều"
             },
             {
-              "text": "Food Service"
+              "text": "Thứ bảy - Chủ nhật: 8 giờ sáng - 7 giờ chiều"
             },
             {
-              "text": "Affiliate Program"
+              "text": "Ngày lễ: Đóng cửa"
             }
           ]
         },
         {
-          "title": "follow us",
+          "title": "Theo dõi chúng tôi",
           "items": [
             {
-              "text": "Follow Origin on the following social network sites."
+              "text": "Theo dõi chúng tôi tại Website này và thường xuyên cập nhật những thông tin mới nhất của của hàng bạn nhé !"
             }
           ]
         }
@@ -626,41 +617,41 @@
     {
       "footerData": [
         {
-          "title": "about us",
+          "title": "Về chúng tôi",
           "items": [
             {
-              "text": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid."
+              "text": "“Dù có phải xới tung trái đất này lên cũng phải làm để tạo ra những tuyệt phẩm cà phê năng lượng ngon nhất”."
             },
             {
-              "text": "hello@mtheme.org"
+              "text": "cofeeshop@gmail.com"
             },
             {
               "text": "+(84)123456789"
             },
             {
-              "text": "198 West 21th Street, Suite 721 New York NY 10010"
+              "text": "Đà Nẵng, Việt Nam"
             }
           ]
         },
         {
-          "title": "for business",
+          "title": "Thời gian hoạt động",
           "items": [
             {
-              "text": "Office Coffee"
+              "text": "Thứ hai - thứ năm: 8 giờ sáng - 5 giờ chiều"
             },
             {
-              "text": "Food Service"
+              "text": "Thứ bảy - Chủ nhật: 8 giờ sáng - 7 giờ chiều"
             },
             {
-              "text": "Affiliate Program"
+              "text": "Ngày lễ: Đóng cửa"
             }
           ]
         },
         {
-          "title": "follow us",
+          "title": "Theo dõi chúng tôi",
           "items": [
             {
-              "text": "Follow Origin on the following social network sites."
+              "text": "Theo dõi chúng tôi tại Website này và thường xuyên cập nhật những thông tin mới nhất của của hàng bạn nhé !"
             }
           ]
         }

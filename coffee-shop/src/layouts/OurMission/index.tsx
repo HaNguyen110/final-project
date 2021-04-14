@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import styles from "./OurMission.module.css";
 
-import Description from "../../components/Description";
+import Header from "../../components/Header";
 
 type image = {
   src: string;
@@ -44,12 +44,12 @@ const OurMission = ({ ourMissionData }: Props) => {
             />
           </div>
           <div className="col-md-7">
-            <Description
+            <Header
               title={description.title}
               text={description.text}
               comment={description.comment}
             />
-            <Description
+            <Header
               text={description.subText}
               comment={description.subComment}
             />

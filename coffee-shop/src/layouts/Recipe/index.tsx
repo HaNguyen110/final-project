@@ -1,7 +1,7 @@
 import styles from "./Recipe.module.css";
 
 import Post from "../../components/Post";
-import Description from "../../components/Description";
+import Header from "../../components/Header";
 
 import Image from "next/image";
 
@@ -50,12 +50,12 @@ const Recipe = ({ recipeData }: Props) => {
             <div className="row">
               <div className="col-lg-6">
                 <h5 className={styles.comment}>
-                  <Description text={content[0].description} />
+                  <Header text={content[0].description} />
                 </h5>
               </div>
               <div className="col-lg-6">
                 <h5 className={styles.comment}>
-                  <Description text={content[1].description} />
+                  <Header text={content[1].description} />
                 </h5>
               </div>
             </div>

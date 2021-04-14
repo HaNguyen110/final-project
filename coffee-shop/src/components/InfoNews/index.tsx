@@ -9,7 +9,7 @@ type Props = {
   date?: string;
 };
 
-const InfoNews = ({ title = "", text = "", note = "", date = "" }: Props) => {
+const InfoNews = ({ title, text, note, date }: Props) => {
   return (
     <div className={styles.infoNews}>
       <div className={styles.date}>{date}</div>

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import styles from "./OurPromise.module.css";
 
-import Description from "../../components/Description";
+import Header from "../../components/Header";
 
 type image = {
   src: string;
@@ -26,7 +26,7 @@ const OurPromise = ({ ourPromiseData }: Props) => {
       <div className="container">
         <div className={`${styles.aboutContent} row`}>
           <div className="col-md-7">
-            <Description title={title} text={text} />
+            <Header title={title} text={text} />
           </div>
           <div className="col-md-5">
             <Image

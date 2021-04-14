@@ -17,12 +17,10 @@ type Props = {
 };
 
 const Home = ({ data }: Props) => {
-  console.log("data", data);
-
   if (data) {
     return (
       <div className={styles.container}>
-        <SEO title="Home page" description="This is Home page" />
+        {/* <SEO title="Home page" description="This is Home page" /> */}
 
         <Hero
           isActiveCarousel
