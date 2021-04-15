@@ -1,9 +1,11 @@
+import Link from "next/link";
+
 import Image from "next/image";
 import styles from "./Logo.module.css";
 
 type Props = {
-  url?: string;
-  alt?: string;
+  url: string;
+  alt: string;
   width?: number;
   height?: number;
 };
@@ -11,7 +13,9 @@ type Props = {
 const Logo = ({ url, alt, width, height }: Props) => {
   return (
     <div className={styles.imgLogo}>
-      <Image src={url} alt={alt} width={width} height={height} />;
+      <Link href="/">
+        <Image src={url} alt={alt} width={width} height={height} />
+      </Link>
     </div>
   );
 };

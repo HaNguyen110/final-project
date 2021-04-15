@@ -1,14 +1,14 @@
-import type { Image } from "./CommonTypes";
+import type { Images } from "./CommonTypes";
 
 export type HeroType = {
-  image: Image;
+  image: Images;
 };
 
 export type InfoType = {
   title: string;
   text: string;
   comment: string;
-  images: Image[];
+  images: Images[];
 };
 
 export type Content = {
@@ -20,7 +20,7 @@ export type Content = {
 };
 
 export type OurMissionType = {
-  image: Image;
+  image: Images;
   content: Content[];
 };
 

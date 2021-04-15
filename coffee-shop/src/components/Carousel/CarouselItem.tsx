@@ -4,13 +4,7 @@ import Header from "../Header";
 
 import styles from "./Carousel.module.css";
 
-export type Item = {
-  src: string;
-  alt: string;
-  isActive: boolean;
-  title?: string;
-  text?: string;
-};
+import { Item } from "../../types/CommonTypes";
 
 type Props = {
   item: Item;

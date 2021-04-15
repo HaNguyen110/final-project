@@ -63,20 +63,19 @@ $ git checkout cofee-shop-web-app
 2. System Requirement
 
    _[Node.js] 10.13 or later (https://nodejs.org/en/)_
-   _Run the server:_
-
-```
-cd coffee-shop
-npm run dev
-```
-
-3. Let’s check to see if it’s working. Open http://localhost:3000 from browser.
 
 ## Run Server
 
 ```
-cd coffee-shop
-npm i json-server
-json-server --watch .src/api/db.json
+1. Install packages
+npm install
+2. Install JSON Server package for mock API database (if need)
+npm install json-server
+3. Serving mock API database on port 3004
 npx json-server --watch src/api/db.json --port 3004
+4. Run website on port 3000
+npm run dev
+
 ```
+
+3. Let’s check to see if it’s working. Open http://localhost:3000 from browser.

@@ -6,7 +6,7 @@ export type Item = {
   text?: string;
 };
 
-export type Image = {
+export type Images = {
   src: string;
   alt: string;
 };

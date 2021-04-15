@@ -1,7 +1,11 @@
-import type { Image } from "./CommonTypes";
+import type { Images } from "./CommonTypes";
 
 export type NavigationType = {
-  image: Image;
+  image: Images;
+};
+
+export type ServerType = {
+  image: Images;
 };
 
 export type Items = {
@@ -9,10 +13,6 @@ export type Items = {
   description: string;
   src: string;
   alt: string;
-};
-
-export type ServerType = {
-  image: Image;
 };
 
 export type LatestType = {
