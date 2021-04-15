@@ -66,14 +66,27 @@ $ git checkout cofee-shop-web-app
 
 ## Run Server
 
-```
 1. Install packages
+
+```
 npm install
+```
+
 2. Install JSON Server package for mock API database (if need)
+
+```
 npm install json-server
+```
+
 3. Serving mock API database on port 3004
+
+```
 npx json-server --watch src/api/db.json --port 3004
+```
+
 4. Run website on port 3000
+
+```
 npm run dev
 
 ```
