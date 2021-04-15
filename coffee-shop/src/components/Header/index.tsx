@@ -23,7 +23,7 @@ const Header = ({
     <>
       <div className={`${styles.title} ${classNames.title}`}>{title}</div>
       <div className={`${styles.text} ${classNames.text}`}>{text}</div>
-      <div className={`${styles.comment} ${classNames.text}`}>{comment}</div>
+      <div className={`${styles.comment} ${classNames.comment}`}>{comment}</div>
     </>
   );
 };

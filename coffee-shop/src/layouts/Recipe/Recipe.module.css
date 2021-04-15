@@ -5,11 +5,11 @@
 
 .infoPost {
   margin: 20px 0;
-  padding: 0;
+  padding-top: 44px;
 }
 
 .comment {
-  margin-top: 60%;
+  margin-top: 44%;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 14px;
