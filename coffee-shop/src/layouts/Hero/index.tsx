@@ -17,6 +17,7 @@ type carouselData = {
   alt: string;
   title: string;
   text: string;
+  isActive: boolean;
 };
 
 type navigationData = {
@@ -27,7 +28,7 @@ type navigationData = {
 
 type Props = {
   heroData: heroBg;
-  carouselData?: carouselData;
+  carouselData?: carouselData[];
   navigationData: navigationData[];
   isActiveCarousel?: boolean;
 };
