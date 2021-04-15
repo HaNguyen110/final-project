@@ -135,7 +135,7 @@
   ],
   "menu": [
     {
-      "src": "/bgMenu.jpg",
+      "src": "/images/menu/bgMenu.jpg",
       "title": "Thực đơn"
     },
     {
@@ -168,7 +168,7 @@
           "id": "0",
           "category": "Cà phê",
           "image": {
-            "src": "/menu-1.png",
+            "src": "/images/menu/menuCoffee.png",
             "alt": "image category 1"
           },
           "items": [
@@ -209,7 +209,7 @@
           "id": "2",
           "category": "Nước ép",
           "image": {
-            "src": "/menu-4.png",
+            "src": "/images/menu/menuFruit.png",
             "alt": "image category 4"
           },
           "items": [
@@ -239,7 +239,7 @@
           "id": "3",
           "category": "Trà",
           "image": {
-            "src": "/menu-2.png",
+            "src": "/images/menu/imgTea.jpg",
             "alt": "image category 2"
           },
           "items": [
@@ -274,8 +274,8 @@
           "id": "4",
           "category": "Các loại thức uống khác",
           "image": {
-            "src": "/menu-2.png",
-            "alt": "image category 2"
+            "src": "/images/menu/imgFruit.png",
+            "alt": "image drink"
           },
           "items": [
             {
@@ -356,7 +356,7 @@
   ],
   "about": [
     {
-      "src": "/bgAbout.jpg",
+      "src": "/images/about/bgAbout.jpg",
       "title": "Về chúng tôi"
     },
     {
@@ -389,18 +389,18 @@
       "comment": "Với mục tiêu Luôn đặt chữ tín lên hàng đầu và hướng tới quan hệ khách hàng dài lâu. Chúng tôi cam kết sẽ mang lại cho bạn những trải nghiệm tuyệt vời khi mua hàng",
       "images": [
         {
-          "src": "/infoUs-bg.jpeg",
+          "src": "/images/about/infoUsBg.jpeg",
           "alt": "bg"
         },
         {
-          "src": "/infoUs.png",
+          "src": "/images/about/infoUs.png",
           "alt": "bg"
         }
       ]
     },
     {
       "image": {
-        "src": "/ourMission.png",
+        "src": "/images/about/ourMission.png",
         "alt": " our Mission"
       },
       "content": [
@@ -417,19 +417,19 @@
       "title": "cam kết của chúng tôi ",
       "text": "Với mục tiêu Luôn đặt chữ tín lên hàng đầu và hướng tới quan hệ khách hàng dài lâu. Chúng tôi cam kết sử dụng 100% hạt cà phê nguyên chất, không pha lẫn những tạp chất khác và mang lại cho bạn những trải nghiệm tuyệt vời khi mua hàng. Chúng tôi sẽ làm việc chăm chỉ hơn để tao ra thêm nhiều thức uống được mọi người tin tưởng.",
       "image": {
-        "src": "/latest-2.png",
+        "src": "/images/home/latestCake.png",
         "alt": "our promse"
       }
     },
     {
       "image": {
-        "src": "/bgAbout-2.jpg",
-        "alt": ""
+        "src": "/images/about/aboutFlickity.jpg",
+        "alt": "flickity"
       }
     },
     {
       "image": {
-        "src": "/ourMethods.png",
+        "src": "/images/about/ourMethods.png",
         "alt": ""
       },
       "title": "các phương pháp của chúng tôi",
@@ -514,22 +514,22 @@
     {
       "carouselData": [
         {
-          "src": "/banner-1.jpg",
-          "alt": "banner-1",
+          "src": "/images/banner/bannerCoffee.jpg",
+          "alt": "banner coffee",
           "isActive": true,
           "title": "CÓ MẶT TRÊN NOW DELIVERY",
           "text": "Bạn hãy tải app Now Delivery trên App Store hoặc CH play và tìm kiếm coffee shop trên app và có thể thưởng thức những món ngon của quán ở mọi nơi.   "
         },
         {
-          "src": "/banner-2.jpg",
-          "alt": "banner-2",
+          "src": "/images/banner/bannerFood.jpg",
+          "alt": "banner food",
           "isActive": false,
           "title": "lịch hoạt động mới nhất",
           "text": "Nghiêm túc thực hiện theo chỉ thị của cơ quan chức năng về công tác phòng chống dịch bệnh Covid-19"
         },
         {
-          "src": "/banner-1.jpg",
-          "alt": "banner-1",
+          "src": "/images/banner/bannerCoffee.jpg",
+          "alt": "banner coffee",
           "isActive": false
         }
       ]
@@ -540,57 +540,57 @@
       "comment": "Với mục tiêu Luôn đặt chữ tín lên hàng đầu và hướng tới quan hệ khách hàng dài lâu. Chúng tôi cam kết sẽ mang lại cho bạn những trải nghiệm tuyệt vời khi mua hàng",
       "images": [
         {
-          "src": "/infoUs-bg.jpeg",
+          "src": "/images/about/infoUsBg.jpeg",
           "alt": "bg"
         },
         {
-          "src": "/infoUs.png",
+          "src": "/images/about/infoUs.png",
           "alt": "bg"
         }
       ]
     },
     {
       "image": {
-        "src": "/bg-2.jpg",
+        "src": "/images/background/bg.jpg",
         "alt": "bg"
       }
     },
     {
       "title": "cập nhật mới nhất",
-      "src": "/coffee.jpg",
+      "src": "/images/home/coffee.jpg",
       "alt": "coffee",
       "items": [
         {
           "subTitle": "Chương trình ca nhạc acoustic hằng đêm.",
           "description": "Từ 7:00pm mỗi ngày sẽ có chương trình ca nhạc acoustic hằng đêm. Chương trình hoàn toàn miễn phí, không tính phí phụ thu.",
-          "src": "/latest-1.png",
+          "src": "/images/home/latestCoffee.png",
           "alt": "latest 1"
         },
         {
           "subTitle": "Kỷ niệm ngày lễ 30/4 và 1/5",
           "description": "Từ ngày 27/4 đến ngày 1/5/2021 khách hàng đến mua trực tiếp ở của hàng sẽ nhận được được ưu đãi sau: hóa đơn trên 100K sẽ được tặng một ly sứ  ",
-          "src": "/latest-2.png",
+          "src": "/images/home/latestCake.png",
           "alt": "latest 2"
         }
       ]
     },
     {
-      "title": "do you want to retation the video recipe",
-      "text": "Coffee is a ritual, a small treat in the morning, “fuel”, a break, chat, affair that makes up our lives. Making the coffee better, we make our lives better.",
-      "src": "/img-13.png",
+      "title": "bạn có muốn tìm cho mình một ly cà phê hoàn hảo không ?",
+      "text": "''Tình yêu cũng giống cà phê vậy, uống nhanh thì dễ say, dễ mệt. Nhưng thưởng thức chầm chậm thì dễ thấm, dễ thăng hoa''",
+      "src": "/images/home/recipe.png",
       "alt": "recipe",
       "content": [
         {
-          "description": "gather more knowledge from coffee"
+          "description": "Đã bao giờ bạn tự hỏi, ly cà phê thơm ngát trên tay mình đã trải qua những chặng đường nào?"
         },
         {
-          "description": "work with green and roasted coffee provides"
+          "description": "HÃY CÙNG THAM GIA TRẢI NGHIỆM HÀNH TRÌNH TỪ NÔNG TRẠI ĐẾN LY CÀ PHÊ "
         }
       ]
     },
     {
       "image": {
-        "src": "/img-10.png",
+        "src": "/images/home/bulletproof.png",
         "alt": "bulletproof"
       },
       "title": "Hãy lựa chọn cho mình món đồ mà bạn thích",
