@@ -1,5 +1,5 @@
 .menu {
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
 .categoryItem {
@@ -11,4 +11,10 @@
 
 .rowReverse:nth-child(2) {
   flex-direction: row-reverse;
+}
+
+@media (max-width: 320px) {
+  .categoryItem {
+    font-size: 30px;
+  }
 }

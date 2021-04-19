@@ -27,3 +27,15 @@
   text-align: center;
   justify-content: center;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 425px) {
+  .navbar {
+    padding-top: 25px;
+  }
+}

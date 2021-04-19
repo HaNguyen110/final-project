@@ -61,8 +61,8 @@ const Latest = ({ latestData }: Props) => {
                   <Image
                     src={items[0].src}
                     alt={items[0].alt}
-                    width={220}
-                    height={155}
+                    width={270}
+                    height={175}
                     objectFit="cover"
                   />
                 </div>

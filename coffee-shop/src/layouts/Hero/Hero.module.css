@@ -25,6 +25,9 @@
   text-align: center;
 }
 
+@media (max-width: 1024px) {
+}
+
 @media (max-width: 996px) {
   .title {
     position: inherit;
@@ -37,7 +40,9 @@
   }
 
   .logo {
-    padding-top: 10px;
+    padding-top: 5px;
+    width: 30%;
+    display: inline-table;
   }
 }
 
@@ -53,5 +58,16 @@
 
   .nav {
     padding-top: 15px;
+  }
+}
+
+@media (max-width: 320px) {
+  .logo {
+    width: 30%;
+    display: inline-table;
+  }
+
+  .title {
+    padding-top: 20px;
   }
 }

@@ -20,3 +20,8 @@
   height: 2px;
   width: 82px;
 }
+@media (max-width: 768px) {
+  .date {
+    font-size: 20px;
+  }
+}

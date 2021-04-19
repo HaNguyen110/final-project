@@ -16,4 +16,11 @@
 
 .menuContent {
   padding-bottom: 20px;
+  width: 100%;
+}
+
+@media (max-width: 320px) {
+  .menuContent {
+    padding: 0 10px;
+  }
 }
