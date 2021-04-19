@@ -5,13 +5,11 @@ import Footer from "../../layouts/Footer";
 import Hero from "../../layouts/Hero";
 import NewPost from "../../layouts/NewPost";
 
-type Props = {};
-
 const News = ({ data, newsList }) => {
   if (data) {
     return (
       <div>
-        {/* <SEO title="News & Events page" description="This is New page" />*/}
+        <SEO title="News & Events page" description="This is New page" />
         <Hero heroData={data[0]} navigationData={data[1].navigationData} />
         {newsList.map((item) => {
           return <NewPost newsEventsData={item} key={item.id} />;

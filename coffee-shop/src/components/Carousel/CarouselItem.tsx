@@ -24,6 +24,7 @@ const CarouselItem = ({ item }: Props) => {
         />
       </div>
       <Image
+        className="d-block w-100"
         src={item.src}
         alt={item.alt}
         objectFit="cover"

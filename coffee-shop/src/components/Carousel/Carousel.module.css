@@ -1,6 +1,10 @@
+.carousel-inner > .item {
+  transition: 1s;
+}
+
 .carouselContent {
   position: absolute;
-  bottom: 130px;
+  bottom: 100px;
   right: 0;
   left: 0;
   z-index: 1;
@@ -13,7 +17,4 @@
     bottom: 20px;
     margin: 0 20%;
   }
-}
-
-@media (max-width: 767px) {
 }

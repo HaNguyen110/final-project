@@ -3,7 +3,7 @@ import Head from "next/head";
 type Props = {
   description: string;
   title: string;
-  siteTitle: string;
+  siteTitle?: string;
 };
 
 const SEO = ({ description, title, siteTitle }: Props) => {
