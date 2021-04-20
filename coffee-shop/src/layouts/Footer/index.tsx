@@ -19,15 +19,15 @@ const Footer = ({ footerData }: Props) => {
       <div className={styles.footer}>
         <footer className="container">
           <div className="row">
-            {footerData.map((data) => {
+            {footerData.map((data, index) => {
               const { title, items } = data || {};
               return (
-                <div className="col-md-4">
+                <div className="col-md-4" key={`${index}-${title}`}>
                   <aside className="widget">
                     <h3 className={styles.title}>{title}</h3>
-                    {items.map((item) => {
+                    {items.map((item, index) => {
                       return (
-                        <div>
+                        <div key={`${index}-${item.text}`}>
                           <p>{item.text}</p>
                         </div>
                       );

@@ -20,7 +20,7 @@ const Home = ({ data }: Props) => {
   if (data) {
     return (
       <div className={styles.container}>
-        {/* <SEO title="Home page" description="This is Home page" /> */}
+        <SEO title="Home page" description="This is Home page" />
 
         <Hero
           isActiveCarousel

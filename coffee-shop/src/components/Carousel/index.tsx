@@ -24,7 +24,10 @@ const Carousel = ({ data }: Props) => {
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
       </ol>
       <div className="carousel-inner" role="listbox">
-        {data && data.map((item) => <CarouselItem item={item} />)}
+        {data &&
+          data.map((item, index) => (
+            <CarouselItem key={`${index}-${item}`} item={item} />
+          ))}
       </div>
       <a
         className="carousel-control-prev"

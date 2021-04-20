@@ -44,9 +44,9 @@ const Bulletproof = ({ bulletproofData }: Props) => {
           <div className="col-md-6">
             <div className={styles.bulletproofContent}>
               <Post title={title} />
-              {items.map((items) => {
+              {items.map((items, index) => {
                 return (
-                  <div>
+                  <div key={`${index}-${items.text}`}>
                     <ul>
                       <li className={styles.bulletproofText}>{items.text}</li>
                     </ul>

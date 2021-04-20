@@ -4,7 +4,7 @@ import Hero from "../../layouts/Hero";
 import InfoUs from "../../layouts/InfoUs";
 import OurMission from "../../layouts/OurMission";
 import Footer from "../../layouts/Footer";
-import OurPromise from "../../layouts/ourPromise";
+import OurPromise from "../../layouts/OurPromise";
 import Flickity from "../../layouts/Flickity";
 import OurMethods from "../../layouts/OurMethods";
 
