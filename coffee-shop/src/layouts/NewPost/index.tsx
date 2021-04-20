@@ -32,13 +32,15 @@ const NewPost = ({ newsEventsData }: Props) => {
         <div className={`${styles.post} row`}>
           <div className="col-md-6">
             <Link href={`/news/[id]`} as={`/news/${id}`}>
-              <Image
-                src={image.src}
-                alt={image.alt}
-                width={552}
-                height={322}
-                objectFit="cover"
-              />
+              <a>
+                <Image
+                  src={image.src}
+                  alt={image.alt}
+                  width={552}
+                  height={322}
+                  objectFit="cover"
+                />
+              </a>
             </Link>
           </div>
           <div className="col-md-6">

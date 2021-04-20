@@ -38,7 +38,9 @@ const Navigation = ({ menu = [], classNames }: Props) => {
                 className={`${styles.navItem} active`}
                 key={`${index}-${item.label}`}
               >
-                <Link href={item.href}>{item.label}</Link>
+                <Link href={item.href}>
+                  <a>{item.label}</a>
+                </Link>
               </li>
             );
           })}

@@ -14,13 +14,15 @@ const Logo = ({ url, alt, width, height }: Props) => {
   return (
     <div className={styles.imgLogo}>
       <Link href="/">
-        <Image
-          className={styles.logo}
-          src={url}
-          alt={alt}
-          width={width}
-          height={height}
-        />
+        <a>
+          <Image
+            className={styles.logo}
+            src={url}
+            alt={alt}
+            width={width}
+            height={height}
+          />
+        </a>
       </Link>
     </div>
   );
